@@ -98309,5 +98309,37 @@
                 "new_value": "2290819"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-20T11:37:29.567385+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2290819",
+                "new_value": "2291002"
+            },
+            {
+                "team": "EmberStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.EmberStake.interface.version",
+                "type": "modified",
+                "old_value": "1.31.0",
+                "new_value": "1.31.1"
+            },
+            {
+                "team": "EmberStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.EmberStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
