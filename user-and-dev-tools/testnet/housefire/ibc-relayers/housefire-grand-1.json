@@ -1,0 +1,46 @@
+[
+  {
+    "chains": [
+      {
+        "chain_id": "housefire-alpaca.cc0d3e0c033be",
+        "client_id": "07-tendermint-36",
+        "connection_id": "connection-21",
+        "channel_id": "channel-19",
+        "port_id": "transfer",
+        "supported_tokens": [
+          {
+            "denom": "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+            "symbol": "NAM",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chain_id": "grand-1",
+        "client_id": "07-tendermint-530",
+        "connection_id": "connection-492",
+        "channel_id": "channel-547",
+        "port_id": "transfer",
+        "supported_tokens": [
+          {
+            "denom": "uusdc",
+            "symbol": "USDC",
+            "decimals": 6
+          }
+        ]
+      }
+    ],
+    "relayers": [
+      {
+        "team_or_contributor_name": "Inter Blockchain Services",
+        "discord_username": "remiinterblockchainservices",
+        "github_account": "Remi-IBS",
+        "creator_maintainer": "yes",
+        "relayer_wallet_address": {
+          "housefire": "tnam1qr5s52md6m43w07vy98t08zurvzywg3c9ym6zmd9",
+          "grand-1": "noble1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyq93pue"
+        }
+      }
+    ]
+  }
+]
