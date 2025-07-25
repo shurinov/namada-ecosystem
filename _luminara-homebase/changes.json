@@ -102913,5 +102913,262 @@
                 "new_value": "2339851"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-25T04:58:19.836174+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "interface",
+                "full_path": "housefire_required_versions.interface",
+                "type": "modified",
+                "old_value": "1.31.1",
+                "new_value": "1.31.2"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.5ElementsNodes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "deNodes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.deNodes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "max-02",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.max-02.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "LoserBoy",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.LoserBoy.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Validatus",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Validatus.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Heliax",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Citizen Web3.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Palamar",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Palamar.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "MELLIFERA",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MELLIFERA.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "shield-crypto",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2904158",
+                "new_value": "2904600"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2904158",
+                "new_value": "2904581"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "2904158",
+                "new_value": "2904601"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "EmberStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.EmberStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.CroutonDigital.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Nodes.Guru.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2339851",
+                "new_value": "2340286"
+            },
+            {
+                "team": null,
+                "service": "interface",
+                "field": "interface",
+                "full_path": "required_versions.interface",
+                "type": "modified",
+                "old_value": "1.31.1",
+                "new_value": "1.31.2"
+            }
+        ]
     }
 ]
