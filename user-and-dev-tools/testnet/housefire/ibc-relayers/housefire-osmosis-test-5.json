@@ -3,9 +3,9 @@
     "chains": [
       {
         "chain_id": "housefire-alpaca.cc0d3e0c033be",
-        "client_id": "07-tendermint-43",
-        "connection_id": "connection-24",
-        "channel_id": "channel-22",
+        "client_id": "07-tendermint-4810",
+        "connection_id": "connection-4229",
+        "channel_id": "channel-10784",
         "port_id": "transfer",
         "supported_tokens": [
           {
@@ -16,15 +16,15 @@
         ]
       },
       {
-        "chain_id": "grand-1",
-        "client_id": "07-tendermint-531",
-        "connection_id": "connection-493",
-        "channel_id": "channel-551",
+        "chain_id": "osmo-test-5",
+        "client_id": "07-tendermint-4810",
+        "connection_id": "connection-14229",
+        "channel_id": "channel-10784",
         "port_id": "transfer",
         "supported_tokens": [
           {
-            "denom": "uusdc",
-            "symbol": "USDC",
+            "denom": "uosmo",
+            "symbol": "OSMO",
             "decimals": 6
           }
         ]
@@ -38,7 +38,7 @@
         "creator_maintainer": "yes",
         "relayer_wallet_address": {
           "housefire": "tnam1qr5s52md6m43w07vy98t08zurvzywg3c9ym6zmd9",
-          "grand-1": "noble1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyq93pue"
+          "osmo-test-5": "osmo1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyqahej9"
         }
       }
     ]
