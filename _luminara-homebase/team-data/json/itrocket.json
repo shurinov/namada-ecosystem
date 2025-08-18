@@ -2251,5 +2251,48 @@
             "old_value": "1.31.2",
             "new_value": "1.31.4"
         }
+    },
+    {
+        "timestamp": "2025-08-18T19:38:36.570421+00:00Z",
+        "type": "initial",
+        "team": "itrocket",
+        "interface_data": {
+            "team": "itrocket",
+            "discord": "itrocket",
+            "url": "https://namadillo.itrocket.net",
+            "status": "up",
+            "version": "1.31.4",
+            "is_up_to_date": true,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3210322",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://namada-masp-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3210322",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.itrocket.net:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "3210322",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
     }
 ]

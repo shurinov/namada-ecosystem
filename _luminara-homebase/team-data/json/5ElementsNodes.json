@@ -9557,5 +9557,48 @@
             "old_value": "n/a",
             "new_value": "1.3.0"
         }
+    },
+    {
+        "timestamp": "2025-08-18T19:38:36.570421+00:00Z",
+        "type": "initial",
+        "team": "5ElementsNodes",
+        "interface_data": {
+            "team": "5ElementsNodes",
+            "discord": "h3ll0_friend",
+            "url": "https://namadillo.5elementsnodes.com",
+            "status": "up",
+            "version": "1.31.4",
+            "is_up_to_date": true,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://index2-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3210306",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://masp2-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3210306",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://rpc-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "3210306",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
     }
 ]
