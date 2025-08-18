@@ -1,0 +1,2294 @@
+[
+    {
+        "timestamp": "2025-05-05T14:43:48.331199+00:00Z",
+        "type": "initial",
+        "team": "StakeUp",
+        "interface_data": {
+            "team": "StakeUp",
+            "discord": "landeros",
+            "url": "https://namadillo.namada.stakeup.tech",
+            "status": "up",
+            "version": "1.20.0",
+            "is_up_to_date": true,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "2.5.2",
+                    "is_up_to_date": true,
+                    "latest_block_height": "1889999",
+                    "sync_state": "sync_nok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://masp-indexer.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "1.2.1",
+                    "is_up_to_date": true,
+                    "latest_block_height": "1901200",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://rpc.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "1.1.5",
+                    "latest_block_height": "1901200",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.2",
+            "new_value": "2.5.3"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1889999",
+            "new_value": "1903285"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-14T21:35:47.816955+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.20.0-hotfix2"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T16:19:57.620070+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.3",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T16:19:57.620070+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T07:15:35.024549+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-21T16:20:30.820534+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T16:20:30.820534+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix2",
+            "new_value": "1.20.0-hotfix3"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T15:17:26.616477+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T15:17:26.616477+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2175395",
+            "new_value": "2175637"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T15:17:26.616477+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2175923",
+            "new_value": "2175999"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2175923",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "modified",
+            "old_value": "1.2.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2175999",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2176293"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2176513"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2176513",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "modified",
+            "old_value": "1.3.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2176513",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2177169"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2177169"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T20:40:32.859929+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T20:40:32.859929+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix3",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T08:21:34.190484+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T08:21:34.190484+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2110593",
+            "new_value": "2184237"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T08:19:07.116732+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "1.24.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T15:15:02.467858+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T12:33:07.465452+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-12T12:33:07.465452+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "3.1.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-13T09:17:37.320811+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-13T16:20:13.171167+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-13T18:22:40.034157+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.24.0",
+            "new_value": "1.26.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-13T18:22:40.034157+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410375",
+            "new_value": "2410414"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410414",
+            "new_value": "2414047"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T15:17:45.212681+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.1.0",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T15:17:45.212681+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-16T16:20:34.388783+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-19T20:18:53.189679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-19T21:14:29.547889+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.26.0",
+            "new_value": "1.27.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T21:14:29.547889+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-20T20:17:42.681478+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-22T11:12:38.280481+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.27.0",
+            "new_value": "1.28.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-22T11:12:38.280481+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-30T09:19:33.180405+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.28.2",
+            "new_value": "1.28.3"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T09:19:33.180405+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-30T21:15:13.463843+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T21:15:17.368615+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-07T21:15:17.368615+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.28.3",
+            "new_value": "1.29.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T22:15:57.191039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.1.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2701502",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T19:36:57.420327+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2702231"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-08T20:18:34.238256+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T20:19:09.889885+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.2.0",
+            "new_value": "3.3.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T20:19:09.889885+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T20:19:09.889885+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2776141",
+            "new_value": "2776502"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T20:19:09.889885+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.29.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://indexer.namada.stakeup.tech",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.3.2",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": false,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_nok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.masp.url",
+            "type": "removed",
+            "old_value": "https://masp-indexer.namada.stakeup.tech",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://rpc.namada.stakeup.tech",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.1.1",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-16T14:15:55.771376+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.31.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://indexer.namada.stakeup.tech"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.3.4"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://masp-indexer.namada.stakeup.tech"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.StakeUp.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.StakeUp.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://rpc.namada.stakeup.tech"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T19:14:51.286483+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.StakeUp.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T22:16:28.720630+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-17T20:19:06.649515+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.31.0",
+            "new_value": "1.31.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-17T20:19:06.649515+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-25T04:58:19.836174+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-25T19:37:37.390456+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.31.1",
+            "new_value": "1.31.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T19:37:37.390456+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-30T13:37:45.467426+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-30T15:18:53.443581+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-30T15:18:53.443581+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "StakeUp",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.StakeUp.interface.version",
+            "type": "modified",
+            "old_value": "1.31.2",
+            "new_value": "1.31.4"
+        }
+    }
+]

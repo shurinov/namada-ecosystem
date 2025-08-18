@@ -1,0 +1,53 @@
+name: Gap Filler
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # Every 30 minutes
+  workflow_dispatch:        # Allow manual trigger
+
+jobs:
+  gap-filler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run Gap Filler
+        working-directory: _luminara-homebase/scripts
+        run: |
+          echo "Starting gap filler..."
+          python3 gap_filler.py
+          echo "Gap filler completed!"
+
+      - name: Commit & Push Gap Filler Updates
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git stash || echo "ℹ️ Nothing to stash"
+          git pull --rebase origin main
+          git stash pop || echo "ℹ️ Nothing to pop"
+
+          # Add team data files and gap filler state
+          git add -f _luminara-homebase/team-data/
+          git add -f _luminara-homebase/gap_filler_state.json
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "Update team data via gap filler [skip ci]"
+            git push
+            echo "✅ Gap filler updates committed successfully"
+          fi

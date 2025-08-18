@@ -1,0 +1,5401 @@
+[
+    {
+        "timestamp": "2025-05-05T14:43:48.331199+00:00Z",
+        "type": "initial",
+        "team": "OriginStake",
+        "interface_data": {
+            "team": "OriginStake",
+            "discord": "mrspir",
+            "url": "https://app.namada.cc",
+            "status": "up",
+            "version": "1.20.0",
+            "is_up_to_date": true,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "2.5.3",
+                    "is_up_to_date": true,
+                    "latest_block_height": "1901214",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://masp.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "1.2.1",
+                    "is_up_to_date": true,
+                    "latest_block_height": "1901214",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.itrocket.net:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "1.1.5",
+                    "latest_block_height": "1901214",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-05-05T21:38:31.990018+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1904565",
+            "new_value": "1904714"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T21:38:31.990018+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T21:38:31.990018+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "1904565",
+            "new_value": "1904714"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T21:38:31.990018+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T22:15:13.374075+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T22:15:13.374075+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "1904714",
+            "new_value": "1905356"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T22:15:13.374075+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T22:15:13.374075+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1904714",
+            "new_value": "1905356"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T06:22:43.312687+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1908988",
+            "new_value": "1909387"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T06:22:43.312687+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T06:22:43.312687+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "1908989",
+            "new_value": "1909387"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T06:22:43.312687+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T07:15:47.742667+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1909387",
+            "new_value": "1910023"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T07:15:47.742667+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T07:15:47.742667+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "1909387",
+            "new_value": "1910023"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T07:15:47.742667+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-07T16:20:33.330883+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.3",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-12T19:13:03.322232+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "1.20.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-12T20:18:06.411499+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.20.1",
+            "new_value": "1.20.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.20.0-hotfix2"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T12:29:08.438039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:11:49.011403+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2065363",
+            "new_value": "2066901"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T14:15:58.807137+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T14:15:58.807137+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T14:15:58.807137+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T14:15:58.807137+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2087659",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T14:15:58.807137+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-20T15:17:40.098979+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T15:17:40.098979+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "2.5.3"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T15:17:40.098979+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2088765"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T15:17:40.098979+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2090811",
+            "new_value": "2090760"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2090760",
+            "new_value": "2091857"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T06:23:22.875194+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T06:23:22.875194+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.3",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T07:15:35.024549+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-21T09:17:52.111523+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T09:17:52.111523+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix2",
+            "new_value": "1.20.0-hotfix3"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T13:26:38.314451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2124591",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T13:26:38.314451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T13:26:38.314451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T13:26:38.314451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-23T13:26:38.314451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T14:15:19.205547+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T14:15:19.205547+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-23T14:15:19.205547+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T17:14:16.705519+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T17:14:16.705519+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2125037",
+            "new_value": "2127092"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2175931",
+            "new_value": "2175999"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2175931",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2175931",
+            "new_value": "2175999"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2175999",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "1.2.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2175999",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2176694"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2175954",
+            "new_value": "2177181"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-28T03:43:28.297458+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-28T03:43:28.297458+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix3",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T04:20:51.113385+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T04:20:51.113385+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2173784",
+            "new_value": "2182201"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2192914",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2194317"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2200052",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T15:40:48.819963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2200857"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T16:19:49.720139+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-31T14:13:26.600311+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T14:13:26.600311+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-31T14:13:26.600311+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://indexer.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.0.2",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "removed",
+            "old_value": "https://masp.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-rpc.itrocket.net:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.0.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T15:14:31.976846+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://indexer.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://masp.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-rpc.itrocket.net:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-31T17:37:41.040386+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T14:16:45.934316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-03T14:16:45.934316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T14:16:45.934316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://indexer.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.0.2",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "removed",
+            "old_value": "https://masp.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-rpc.itrocket.net:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.0.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T15:18:33.168905+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://indexer.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://masp.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-rpc.itrocket.net:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T16:21:56.624719+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://indexer.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.0.2",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "removed",
+            "old_value": "https://masp.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-rpc.itrocket.net:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.0.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T17:15:41.823124+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://indexer.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://masp.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-rpc.itrocket.net:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T18:23:17.134422+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T19:12:41.006392+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T19:12:41.006392+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-03T19:12:41.006392+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-06T10:18:01.210892+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-06T10:18:01.210892+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T10:18:01.210892+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://indexer.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.0.2",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "removed",
+            "old_value": "https://masp.namada.tududes.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-rpc.itrocket.net:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.0.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T13:27:59.777240+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://indexer.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://masp.namada.tududes.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.OriginStake.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.OriginStake.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-rpc.itrocket.net:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-06T15:14:06.680941+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T08:19:07.116732+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "1.24.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T16:17:56.122440+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T03:00:59.339338+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "3.1.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T03:00:59.339338+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-13T09:17:37.320811+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-13T16:20:13.171167+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.24.0",
+            "new_value": "1.26.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410383",
+            "new_value": "2410414"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410414",
+            "new_value": "2414052"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T16:20:34.388783+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.1.0",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T08:22:01.182699+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2459507",
+            "new_value": "2459651"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T08:22:01.182699+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T11:14:12.314056+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T11:14:12.314056+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2459651",
+            "new_value": "2461355"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2462215",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "1.3.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2462215",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.2.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-19T13:28:56.520118+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2463150"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2463150"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T14:15:39.607539+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-19T20:18:53.189679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-20T09:17:09.409299+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.26.0",
+            "new_value": "1.27.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-20T09:17:09.409299+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-20T20:17:42.681478+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.2.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2481312",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "1.3.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2481312",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T02:55:39.157956+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T05:40:55.808298+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-21T05:40:55.808298+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.masp.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T05:40:55.808298+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.masp.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2477032",
+            "new_value": "2484065"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2484065"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-21T06:21:25.957626+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-21T08:19:31.056277+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-21T08:19:31.056277+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.27.0",
+            "new_value": "1.28.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-23T18:23:05.196740+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-23T18:23:05.196740+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.2.0",
+            "new_value": "3.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-25T14:16:24.465950+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.3.0",
+            "new_value": "3.3.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T11:39:39.145850+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.28.2",
+            "new_value": "1.28.3"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T11:39:39.145850+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-30T21:15:13.463843+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T22:15:57.191039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-09T05:21:03.644086+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-09T05:21:03.644086+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.28.3",
+            "new_value": "1.29.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T15:18:29.275236+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T15:18:29.275236+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2773600",
+            "new_value": "2774042"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T15:18:29.275236+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.3.1",
+            "new_value": "3.3.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T16:21:39.017662+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2790068",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.1.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:15:59.220293+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2790580"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T23:39:57.974763+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T04:10:36.130589+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2774042",
+            "new_value": "2792638"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T04:10:36.130589+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.3.2",
+            "new_value": "3.3.3"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T04:10:36.130589+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T17:17:44.510529+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-16T18:24:21.221096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T18:24:21.221096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.3.3",
+            "new_value": "3.3.4"
+        }
+    },
+    {
+        "timestamp": "2025-07-22T09:22:03.213844+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.29.0",
+            "new_value": "1.31.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-22T09:22:03.213844+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-25T04:58:19.836174+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-25T09:20:45.289470+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.31.1",
+            "new_value": "1.31.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T09:20:45.289470+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-30T13:37:45.467426+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-30T17:17:49.516287+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.interface.version",
+            "type": "modified",
+            "old_value": "1.31.2",
+            "new_value": "1.31.4"
+        }
+    },
+    {
+        "timestamp": "2025-07-30T17:17:49.516287+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.1.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T13:26:41.068409+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "3107897",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.OriginStake.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.OriginStake.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.OriginStake.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-08-10T14:14:47.648981+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "OriginStake",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.OriginStake.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "3108603"
+        }
+    }
+]

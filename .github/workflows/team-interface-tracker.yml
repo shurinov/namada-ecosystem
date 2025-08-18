@@ -1,0 +1,43 @@
+name: Team Interface Tracker
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"  # Every 30 minutes
+
+jobs:
+  team-track-interfaces:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run team interface tracker
+        working-directory: _luminara-homebase/scripts
+        run: python3 team_interfaces_tracker.py
+
+      - name: Commit & Push team tracker results
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git stash || echo "ℹ️ Nothing to stash"
+          git pull --rebase origin main
+          git stash pop || echo "ℹ️ Nothing to pop"
+
+          git add -f _luminara-homebase/team-data/ _luminara-homebase/team_state.json
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "Update team interface tracker results [skip ci]"
+            git push
+            echo "✅ Team tracker results committed successfully"
+          fi

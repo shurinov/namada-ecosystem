@@ -1,0 +1,2255 @@
+[
+    {
+        "timestamp": "2025-05-05T14:43:48.331199+00:00Z",
+        "type": "initial",
+        "team": "itrocket",
+        "interface_data": {
+            "team": "itrocket",
+            "discord": "itrocket",
+            "url": "https://namadillo.itrocket.net",
+            "status": "up",
+            "version": "1.20.0",
+            "is_up_to_date": true,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "2.3.0",
+                    "is_up_to_date": false,
+                    "latest_block_height": "1901225",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://namada-masp-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "1.1.0",
+                    "is_up_to_date": false,
+                    "latest_block_height": "1901225",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.itrocket.net:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "1.1.5",
+                    "latest_block_height": "1901225",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.3.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-05T18:18:32.884333+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "1902767",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T05:16:22.094369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "1908996"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T05:16:22.094369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T05:16:22.094369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "3.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T05:16:22.094369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-06T05:16:22.094369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-08T18:21:56.334887+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "1.20.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-08T18:21:56.334887+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.0",
+            "new_value": "3.0.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-12T19:13:03.322232+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.20.1",
+            "new_value": "1.20.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:35:51.817535+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:35:51.817535+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:35:51.817535+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.20.0-hotfix2"
+        }
+    },
+    {
+        "timestamp": "2025-05-16T07:15:48.583879+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2034224",
+            "new_value": "42246"
+        }
+    },
+    {
+        "timestamp": "2025-05-16T07:15:48.583879+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-17T18:19:53.299620+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-17T18:19:53.299620+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2031107",
+            "new_value": "2052915"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T12:29:08.438039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:11:49.011403+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:11:49.011403+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:11:49.011403+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T19:35:54.784379+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T20:16:38.718360+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2065363",
+            "new_value": "2066908"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2065363",
+            "new_value": "2066908"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-18T21:13:20.634729+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2065363",
+            "new_value": "2066908"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T06:24:03.888543+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T06:24:03.888543+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2071095",
+            "new_value": "2071188"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T06:23:28.231771+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.masp.version",
+            "type": "modified",
+            "old_value": "1.1.0",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T06:23:28.231771+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-20T06:23:28.231771+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.1",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T09:17:30.192971+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-20T09:17:30.192971+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2090817",
+            "new_value": "2090860"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2090817",
+            "new_value": "2091123"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T20:18:04.260132+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2090860",
+            "new_value": "2091863"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T21:14:42.295074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2091123",
+            "new_value": "2091863"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T02:56:18.039744+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T02:56:18.039744+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "1857150",
+            "new_value": "2094735"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T07:15:35.024549+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-21T08:21:13.743867+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix2",
+            "new_value": "1.20.0-hotfix3"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T08:21:13.743867+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T17:14:08.011848+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-21T17:14:08.011848+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-22T07:15:44.010929+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-22T07:15:44.010929+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2175934",
+            "new_value": "2175998"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2175934",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2175934",
+            "new_value": "2175998"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:14:25.051180+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T17:38:30.832674+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2177187"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T18:21:07.557856+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.masp.version",
+            "type": "modified",
+            "old_value": "1.3.0",
+            "new_value": "1.2.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:12:23.425317+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:12:23.425317+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.masp.version",
+            "type": "modified",
+            "old_value": "1.2.1",
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:12:23.425317+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:12:23.425317+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.4",
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix3",
+            "new_value": "1.21.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2176885",
+            "new_value": "2177629"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-28T05:16:20.357608+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2081840",
+            "new_value": "2182682"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T05:16:20.357608+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2192918",
+            "new_value": "2193680"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2192918",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T02:57:33.119131+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2192918",
+            "new_value": "2193680"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2193680",
+            "new_value": "2194321"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2194321"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.itrocket.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2193680",
+            "new_value": "2194322"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T08:19:07.116732+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.21.0",
+            "new_value": "1.24.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-07T16:17:56.122440+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "101.0.0",
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T21:15:29.048679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-12T21:15:29.048679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "3.1.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-13T09:17:37.320811+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-13T16:20:13.171167+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-13T18:22:40.034157+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.24.0",
+            "new_value": "1.26.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-13T18:22:40.034157+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410386",
+            "new_value": "2410414"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410414",
+            "new_value": "2414055"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T16:20:34.388783+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.1.0",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T20:18:53.189679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.26.0",
+            "new_value": "1.27.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-20T20:17:42.681478+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-21T08:19:31.056277+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-21T08:19:31.056277+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.27.0",
+            "new_value": "1.28.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T05:44:32.233831+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-30T05:44:32.233831+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.28.2",
+            "new_value": "1.28.3"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T21:15:13.463843+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T11:14:33.631123+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.28.3",
+            "new_value": "1.29.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T11:14:33.631123+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-07T22:15:57.191039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-14T16:21:39.017662+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-14T16:21:39.017662+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.2.0",
+            "new_value": "3.3.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T18:25:22.462336+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2775136",
+            "new_value": "2775229"
+        }
+    },
+    {
+        "timestamp": "2025-07-14T18:25:22.462336+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T06:26:40.197078+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2775229",
+            "new_value": "2781920"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T06:26:40.197078+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T08:23:18.306418+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2782394",
+            "new_value": "2782644"
+        }
+    },
+    {
+        "timestamp": "2025-07-15T08:23:18.306418+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T15:18:52.358967+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-16T15:18:52.358967+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T15:18:52.358967+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2782644",
+            "new_value": "2798835"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T15:18:52.358967+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.3.2",
+            "new_value": "3.3.4"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T15:18:52.358967+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.29.0",
+            "new_value": "1.31.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-16T17:17:44.510529+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T17:17:44.510529+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T22:16:28.720630+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-25T07:21:11.685496+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-25T07:21:11.685496+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.31.0",
+            "new_value": "1.31.2"
+        }
+    },
+    {
+        "timestamp": "2025-07-30T13:37:45.467426+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-30T15:18:53.443581+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-30T15:18:53.443581+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "itrocket",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.itrocket.interface.version",
+            "type": "modified",
+            "old_value": "1.31.2",
+            "new_value": "1.31.4"
+        }
+    }
+]

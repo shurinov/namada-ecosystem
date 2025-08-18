@@ -1,0 +1,70 @@
+# parse the monolithic changes.json into separate jsons/csv for each team
+# not used, but included as a utility or for reference
+
+name: Migrate Historical Data
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  migrate-historical-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run Historical Data Migration
+        working-directory: _luminara-homebase/scripts
+        run: |
+          echo "Starting historical data migration..."
+          python3 parse_teams.py
+          python3 json_to_csv.py
+          echo "Historical migration completed!"
+
+      - name: Commit & Push Team Data Files
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git stash || echo "ℹ️ Nothing to stash"
+          git pull --rebase origin main
+          git stash pop || echo "ℹ️ Nothing to pop"
+
+          # Add all team data files
+          git add -f _luminara-homebase/team-data/
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "Migrate historical data to team-specific files [skip ci]"
+            git push
+            echo "✅ Historical migration committed successfully"
+          fi
+
+      - name: Create Gap Filler State
+        run: |
+          # Create gap filler state to mark migration as complete
+          cat > _luminara-homebase/gap_filler_state.json << EOF
+          {
+            "last_processed_timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%S.000000+00:00Z")",
+            "migration_completed": true,
+            "total_entries_processed": 0
+          }
+          EOF
+          
+          git add _luminara-homebase/gap_filler_state.json
+          git commit -m "Initialize gap filler state after historical migration [skip ci]"
+          git push
+          echo "✅ Gap filler state initialized"

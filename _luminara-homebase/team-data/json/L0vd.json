@@ -1,0 +1,4907 @@
+[
+    {
+        "timestamp": "2025-05-05T14:43:48.331199+00:00Z",
+        "type": "initial",
+        "team": "L0vd",
+        "interface_data": {
+            "team": "L0vd",
+            "discord": "jango_l0vd",
+            "url": "https://namadillo.l0vd.com",
+            "status": "up",
+            "version": "1.19.0",
+            "is_up_to_date": false,
+            "settings": [
+                {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+                    "status": "up",
+                    "version": "2.3.0",
+                    "is_up_to_date": false,
+                    "latest_block_height": "1889999",
+                    "sync_state": "sync_nok"
+                },
+                {
+                    "service": "masp",
+                    "url": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+                    "status": "up",
+                    "version": "1.2.1",
+                    "is_up_to_date": true,
+                    "latest_block_height": "1901212",
+                    "sync_state": "sync_ok"
+                },
+                {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet.rpc.l0vd.com/",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "1.1.5",
+                    "latest_block_height": "1901212",
+                    "sync_state": "sync_ok"
+                }
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-05-10T12:28:29.059676+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.3.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-10T12:28:29.059676+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-10T15:14:50.808962+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.19.0",
+            "new_value": "1.20.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-10T15:14:50.808962+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-11T13:40:38.001109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.20.1",
+            "new_value": "1.20.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-11T15:14:00.131297+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "1976469"
+        }
+    },
+    {
+        "timestamp": "2025-05-11T15:14:00.131297+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "2.5.3"
+        }
+    },
+    {
+        "timestamp": "2025-05-11T15:14:00.131297+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-11T15:14:00.131297+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-11T15:14:00.131297+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T16:20:32.416898+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T16:20:32.416898+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2001430",
+            "new_value": "2001798"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T17:14:26.264803+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T17:14:26.264803+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2001798",
+            "new_value": "2002249"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "removed",
+            "old_value": "2.5.3",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "removed",
+            "old_value": "1.2.1",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet.rpc.l0vd.com/",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "1.1.5",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-13T18:22:38.134720+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "2.5.3"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.2.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet.rpc.l0vd.com/"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-13T19:12:55.105791+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-14T21:35:47.816955+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-15T11:36:44.887611+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.20.0-hotfix2"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T12:33:40.408081+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2074189",
+            "new_value": "2074292"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T12:33:40.408081+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T13:29:11.216189+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-19T13:29:11.216189+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2074292",
+            "new_value": "2075190"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T17:14:09.410803+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T17:14:09.410803+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2089292",
+            "new_value": "2089514"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T17:40:14.307480+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T19:12:34.838319+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2089726",
+            "new_value": "2090612"
+        }
+    },
+    {
+        "timestamp": "2025-05-20T19:12:34.838319+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-21T07:15:35.024549+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-22T17:14:17.593998+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-22T17:14:17.593998+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2114159",
+            "new_value": "2114561"
+        }
+    },
+    {
+        "timestamp": "2025-05-22T18:22:09.182142+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2114561",
+            "new_value": "2115197"
+        }
+    },
+    {
+        "timestamp": "2025-05-22T18:22:09.182142+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T07:15:39.892011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "modified",
+            "old_value": "2.5.3",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T07:15:39.892011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T07:15:39.892011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T07:15:39.892011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2121429",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "removed",
+            "old_value": "down",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "removed",
+            "old_value": "n/a",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": false,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_nok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "removed",
+            "old_value": "1.2.1",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet.rpc.l0vd.com/",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "1.1.5",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix2",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T08:21:13.433575+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "2.5.4"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.2.1"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet.rpc.l0vd.com/"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.1.5"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.20.0-hotfix3"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T09:17:08.740641+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-23T10:17:09.765760+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-23T10:17:09.765760+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2121924",
+            "new_value": "2123471"
+        }
+    },
+    {
+        "timestamp": "2025-05-26T14:42:41.219286+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.masp.latest_block_height",
+            "type": "modified",
+            "old_value": "2162705",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-26T14:42:41.219286+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-26T14:42:41.219286+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-26T14:42:41.219286+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "modified",
+            "old_value": "1.2.1",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-26T14:42:41.219286+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "modified",
+            "old_value": "0.37.15",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "1.1.5",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:20:15.188932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "2175928",
+            "new_value": "0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2176052",
+            "new_value": "2176080"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.rpc.latest_block_height",
+            "type": "modified",
+            "old_value": "0",
+            "new_value": "2176306"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T16:47:30.993932+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "101.0.0"
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-27T19:35:48.274091+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-05-28T21:14:48.814696+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2186969",
+            "new_value": "2190633"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T21:14:48.814696+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-28T21:37:31.910682+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2190633",
+            "new_value": "2194263"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T03:45:09.149564+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T04:21:12.987792+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T11:13:41.564642+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2194263",
+            "new_value": "2197951"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T11:13:41.564642+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-05-29T11:36:31.777141+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-30T01:15:11.171636+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2201682",
+            "new_value": "2205323"
+        }
+    },
+    {
+        "timestamp": "2025-05-30T01:15:11.171636+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-30T02:55:24.858371+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T05:15:05.105074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2216180",
+            "new_value": "2219816"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T05:15:05.105074+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T05:39:58.529431+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T19:11:37.818971+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T19:11:37.818971+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2223444",
+            "new_value": "2227082"
+        }
+    },
+    {
+        "timestamp": "2025-05-31T19:36:11.819708+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-01T23:14:36.833224+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-01T23:14:36.833224+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2238097",
+            "new_value": "2241754"
+        }
+    },
+    {
+        "timestamp": "2025-06-01T23:37:18.517917+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2241754",
+            "new_value": "2241843"
+        }
+    },
+    {
+        "timestamp": "2025-06-01T23:37:18.517917+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-02T13:29:28.151963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2245526",
+            "new_value": "2249140"
+        }
+    },
+    {
+        "timestamp": "2025-06-02T13:29:28.151963+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-06-02T14:16:42.267183+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "removed",
+            "old_value": "2.5.4",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": false,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_nok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "removed",
+            "old_value": "down",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "removed",
+            "old_value": "n/a",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": false,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_nok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet.rpc.l0vd.com/",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.0.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.20.0-hotfix3",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-02T20:17:57.780339+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.24.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.0.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet.rpc.l0vd.com/"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-10T19:35:51.762612+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T20:18:09.128568+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2377961",
+            "new_value": "2378171"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T20:18:09.128568+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T21:15:29.048679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2378171",
+            "new_value": "2379019"
+        }
+    },
+    {
+        "timestamp": "2025-06-12T21:15:29.048679+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-13T09:17:37.320811+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-13T16:20:13.171167+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T10:16:40.079168+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410381",
+            "new_value": "2410414"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-15T16:18:15.847096+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2410414",
+            "new_value": "2414050"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T09:19:20.188451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-16T09:19:20.188451+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2422467",
+            "new_value": "2422522"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T04:00:07.639216+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2456707",
+            "new_value": "2457687"
+        }
+    },
+    {
+        "timestamp": "2025-06-19T04:00:07.639216+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-22T19:36:12.577697+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2502967",
+            "new_value": "2503141"
+        }
+    },
+    {
+        "timestamp": "2025-06-22T19:36:12.577697+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-06-22T20:16:36.758996+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2503141",
+            "new_value": "2503724"
+        }
+    },
+    {
+        "timestamp": "2025-06-22T20:16:36.758996+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "modified",
+            "old_value": "3.0.2",
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2547746",
+            "new_value": "2545407"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-26T10:17:35.780399+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.24.0",
+            "new_value": "1.28.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T12:34:12.316747+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T12:34:12.316747+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2547103",
+            "new_value": "2549386"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.28.2",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.2.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet.rpc.l0vd.com/",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.1.1",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-26T23:39:19.339316+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet.rpc.l0vd.com/"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.28.2"
+        }
+    },
+    {
+        "timestamp": "2025-06-27T01:19:38.408122+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-06-30T21:15:13.463843+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "1.28.2",
+            "new_value": "n/a"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "removed",
+            "old_value": "indexer",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "removed",
+            "old_value": "3.2.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "removed",
+            "old_value": "masp",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "removed",
+            "old_value": "1.3.0",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "removed",
+            "old_value": "rpc",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "removed",
+            "old_value": "https://namada-mainnet.rpc.l0vd.com/",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "removed",
+            "old_value": "up",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "removed",
+            "old_value": "0.37.15",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "removed",
+            "old_value": true,
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "removed",
+            "old_value": "101.1.1",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "removed",
+            "old_value": "sync_ok",
+            "new_value": null
+        }
+    },
+    {
+        "timestamp": "2025-07-07T17:42:41.603109+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "up",
+            "new_value": "down"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.interface.version",
+            "type": "modified",
+            "old_value": "n/a",
+            "new_value": "1.29.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.indexer.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "indexer"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.indexer.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.indexer.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.indexer.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "3.2.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.masp.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "masp"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.masp.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.masp.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.masp.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "1.3.0"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.masp.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "masp",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.masp.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "service",
+            "full_path": "namada.operator.L0vd.service.rpc.service",
+            "type": "added",
+            "old_value": null,
+            "new_value": "rpc"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "url",
+            "full_path": "namada.operator.L0vd.service.rpc.url",
+            "type": "added",
+            "old_value": null,
+            "new_value": "https://namada-mainnet.rpc.l0vd.com/"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.service.rpc.status",
+            "type": "added",
+            "old_value": null,
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "version",
+            "full_path": "namada.operator.L0vd.service.rpc.version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "0.37.15"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+            "type": "added",
+            "old_value": null,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "namada_version",
+            "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+            "type": "added",
+            "old_value": null,
+            "new_value": "101.1.1"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "rpc",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+            "type": "added",
+            "old_value": null,
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T18:23:18.285173+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "status",
+            "full_path": "namada.operator.L0vd.interface.status",
+            "type": "modified",
+            "old_value": "down",
+            "new_value": "up"
+        }
+    },
+    {
+        "timestamp": "2025-07-07T22:15:57.191039+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": false,
+            "new_value": true
+        }
+    },
+    {
+        "timestamp": "2025-07-16T17:17:44.510529+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.service.indexer.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-16T17:17:44.510529+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "interface",
+            "field": "is_up_to_date",
+            "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+            "type": "modified",
+            "old_value": true,
+            "new_value": false
+        }
+    },
+    {
+        "timestamp": "2025-07-22T16:21:18.739031+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2873086",
+            "new_value": "2873442"
+        }
+    },
+    {
+        "timestamp": "2025-07-22T16:21:18.739031+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-22T17:17:51.764875+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2873442",
+            "new_value": "2873923"
+        }
+    },
+    {
+        "timestamp": "2025-07-22T17:17:51.764875+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-24T15:17:23.656486+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-07-24T15:17:23.656486+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2897448",
+            "new_value": "2897888"
+        }
+    },
+    {
+        "timestamp": "2025-07-24T17:16:20.114369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-24T17:16:20.114369+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2898347",
+            "new_value": "2898764"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T10:19:05.687211+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2907296",
+            "new_value": "2907604"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T10:19:05.687211+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T11:39:20.208025+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2907908",
+            "new_value": "2908291"
+        }
+    },
+    {
+        "timestamp": "2025-07-25T11:39:20.208025+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-27T12:33:29.659306+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2933159",
+            "new_value": "2933746"
+        }
+    },
+    {
+        "timestamp": "2025-07-27T12:33:29.659306+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-07-27T13:28:04.988934+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-07-27T13:28:04.988934+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "2933746",
+            "new_value": "2934153"
+        }
+    },
+    {
+        "timestamp": "2025-08-05T17:45:01.925576+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-05T17:45:01.925576+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3047861",
+            "new_value": "3048078"
+        }
+    },
+    {
+        "timestamp": "2025-08-05T18:27:47.493152+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3048078",
+            "new_value": "3048690"
+        }
+    },
+    {
+        "timestamp": "2025-08-05T18:27:47.493152+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-11T13:35:24.419350+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3120361",
+            "new_value": "3120624"
+        }
+    },
+    {
+        "timestamp": "2025-08-11T13:35:24.419350+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-11T14:18:43.259300+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-11T14:18:43.259300+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3120624",
+            "new_value": "3121112"
+        }
+    },
+    {
+        "timestamp": "2025-08-11T21:37:42.310198+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T17:16:29.837990+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3133987",
+            "new_value": "3134980"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T17:16:29.837990+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T19:13:25.619446+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_nok"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T19:13:25.619446+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3135757",
+            "new_value": "3135890"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T19:36:59.432828+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3135890",
+            "new_value": "3136204"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T19:36:59.432828+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T21:15:34.094670+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T21:15:34.094670+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3136745",
+            "new_value": "3136852"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T21:38:59.278604+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-12T21:38:59.278604+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3136852",
+            "new_value": "3137244"
+        }
+    },
+    {
+        "timestamp": "2025-08-14T10:46:14.398872+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-14T10:46:14.398872+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3156055",
+            "new_value": "3156276"
+        }
+    },
+    {
+        "timestamp": "2025-08-14T11:14:52.938149+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3156276",
+            "new_value": "3156596"
+        }
+    },
+    {
+        "timestamp": "2025-08-14T11:14:52.938149+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-16T09:16:07.843469+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-16T09:16:07.843469+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3180025",
+            "new_value": "3180173"
+        }
+    },
+    {
+        "timestamp": "2025-08-16T09:38:31.924521+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3180173",
+            "new_value": "3180513"
+        }
+    },
+    {
+        "timestamp": "2025-08-16T09:38:31.924521+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-18T07:22:05.976011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3203703",
+            "new_value": "3203858"
+        }
+    },
+    {
+        "timestamp": "2025-08-18T07:22:05.976011+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-18T07:42:15.073120+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_lag",
+            "new_value": "sync_ok"
+        }
+    },
+    {
+        "timestamp": "2025-08-18T07:42:15.073120+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "L0vd",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3203858",
+            "new_value": "3204184"
+        }
+    }
+]
