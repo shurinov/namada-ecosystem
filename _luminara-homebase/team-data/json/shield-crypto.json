@@ -31241,5 +31241,31 @@
             "old_value": "3216982",
             "new_value": "3217286"
         }
+    },
+    {
+        "timestamp": "2025-08-19T09:40:59.520895+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "shield-crypto",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3216961",
+            "new_value": "3217536"
+        }
+    },
+    {
+        "timestamp": "2025-08-19T09:40:59.520895+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "shield-crypto",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_nok",
+            "new_value": "sync_ok"
+        }
     }
 ]
