@@ -9675,5 +9675,90 @@
             "is_up_to_date": false,
             "settings": []
         }
+    },
+    {
+        "timestamp": "2025-08-20T15:20:33.916373+00:00Z",
+        "type": "change",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.LoserBoy.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.LoserBoy.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.LoserBoy.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "LoserBoy",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.LoserBoy.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-idx.emberstake.xyz",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3232896",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.LoserBoy.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp-idx.emberstake.xyz",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3232895",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.LoserBoy.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada.loserboy.xyz",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "3215656",
+                    "sync_state": "sync_nok"
+                }
+            }
+        ]
     }
 ]
