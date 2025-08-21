@@ -61,7 +61,7 @@ def extract_teams_from_changes(changes_data: List[Dict[str, Any]]) -> Set[str]:
     return teams
 
 def parse_changes_by_team(changes_data: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
-    """Parse changes data and separate by team."""
+    """Parse changes data and separate by team, grouping changes by timestamp."""
     team_data = defaultdict(list)
     
     for entry in changes_data:
@@ -85,15 +85,16 @@ def parse_changes_by_team(changes_data: List[Dict[str, Any]]) -> Dict[str, List[
                     team_entry = {
                         "timestamp": timestamp,
                         "type": "initial",
-                        "team": team,
-                        "interface_data": interface
+                        "state": interface
                     }
                     team_data[team].append(team_entry)
         
         elif "changes" in entry:
-            # Handle change entries
+            # Handle change entries - group by team and timestamp
             changes = entry.get("changes", [])
             
+            # Group changes by team
+            team_changes = defaultdict(list)
             for change in changes:
                 team = change.get("team", "required_versions")
                 
@@ -101,13 +102,16 @@ def parse_changes_by_team(changes_data: List[Dict[str, Any]]) -> Dict[str, List[
                 if team == "-":
                     continue
                 
-                # Create change entry for this team
-                team_entry = {
-                    "timestamp": timestamp,
-                    "type": "change",
-                    "change_data": change
-                }
-                team_data[team].append(team_entry)
+                team_changes[team].append(change)
+            
+            # Create entries for each team with their changes
+            for team, team_change_list in team_changes.items():
+                if team_change_list:  # Only create entry if there are changes
+                    team_entry = {
+                        "timestamp": timestamp,
+                        "changes": team_change_list
+                    }
+                    team_data[team].append(team_entry)
     
     return dict(team_data)
 
