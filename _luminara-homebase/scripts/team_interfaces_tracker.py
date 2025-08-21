@@ -259,10 +259,9 @@ def save_team_changes(team_changes: Dict[str, List[dict]], timestamp: str) -> No
         else:
             safe_team_name = re.sub(r'[^\w\-]', '_', team)
         
-        # Create team entry
+        # Create team entry with changes array
         team_entry = {
             "timestamp": timestamp,
-            "type": "change",
             "changes": changes
         }
         
@@ -329,23 +328,32 @@ def main():
             else:
                 safe_team_name = re.sub(r'[^\w\-]', '_', team)
             
+            # Create initial entry with proper format
+            initial_entry = {
+                "timestamp": timestamp,
+                "type": "initial",
+                "state": entries[0]["interface_data"] if entries else {}
+            }
+            
             json_path = os.path.join(JSON_OUTPUT_PATH, f"{safe_team_name}.json")
-            append_to_json_file(entries, json_path)
+            append_to_json_file([initial_entry], json_path)
             
             # Generate initial SQL statement
-            sql_statement = (
-                "INSERT INTO interface_changes "
-                "(timestamp, team, service, field, full_path, change_type, old_value, new_value) "
-                "VALUES ('{}', '{}', 'interface', 'initial_state', 'namada.operator.{}.interface', 'initial', 'null', '{}');\n"
-            ).format(
-                timestamp,
-                team or 'null',
-                team or 'unknown',
-                json.dumps(interface)
-            )
-            
-            sql_path = os.path.join(SQL_OUTPUT_PATH, f"{safe_team_name}.sql")
-            append_to_file(sql_statement, sql_path)
+            if entries:
+                interface_data = entries[0]["interface_data"]
+                sql_statement = (
+                    "INSERT INTO interface_changes "
+                    "(timestamp, team, service, field, full_path, change_type, old_value, new_value) "
+                    "VALUES ('{}', '{}', 'interface', 'initial_state', 'namada.operator.{}.interface', 'initial', 'null', '{}');\n"
+                ).format(
+                    timestamp,
+                    team or 'null',
+                    team or 'unknown',
+                    json.dumps(interface_data)
+                )
+                
+                sql_path = os.path.join(SQL_OUTPUT_PATH, f"{safe_team_name}.sql")
+                append_to_file(sql_statement, sql_path)
             
             print(f"Initial state for {safe_team_name}: {len(entries)} entries")
         
