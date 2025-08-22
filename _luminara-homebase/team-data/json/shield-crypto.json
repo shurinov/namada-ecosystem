@@ -26116,5 +26116,31 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "shield-crypto",
+            "service": "indexer",
+            "field": "sync_state",
+            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+            "type": "modified",
+            "old_value": "sync_ok",
+            "new_value": "sync_lag"
+        }
+    },
+    {
+        "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
+        "type": "change",
+        "change_data": {
+            "team": "shield-crypto",
+            "service": "indexer",
+            "field": "latest_block_height",
+            "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+            "type": "modified",
+            "old_value": "3253021",
+            "new_value": "3253212"
+        }
     }
 ]
