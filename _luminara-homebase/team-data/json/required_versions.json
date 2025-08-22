@@ -28309,19 +28309,20 @@
     },
     {
         "timestamp": "2025-08-21T17:39:48.383635+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2598151",
-            "new_value": "2598674"
-        }
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2598151",
+                "new_value": "2598674"
+            }
+        ]
     },
     {
-        "timestamp": "2025-08-21T18:27:10.753121+00:00Z",
+        "timestamp": "2025-08-21T18:23:07.885213+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28330,38 +28331,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2598674",
+                "new_value": "2598975"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2598975",
                 "new_value": "2599240"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T18:23:07.885213+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2598674",
-            "new_value": "2598975"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2598975",
-            "new_value": "2599240"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T19:14:53.456080+00:00Z",
+        "timestamp": "2025-08-21T19:12:45.329173+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28375,20 +28364,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T19:12:45.329173+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2599240",
-            "new_value": "2599440"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T19:37:10.953651+00:00Z",
+        "timestamp": "2025-08-21T19:36:06.628171+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28402,20 +28378,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T19:36:06.628171+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2599440",
-            "new_value": "2599604"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:20:17.720722+00:00Z",
+        "timestamp": "2025-08-21T20:17:19.506411+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28424,38 +28387,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2599604",
+                "new_value": "2599766"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2599766",
                 "new_value": "2600030"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T20:17:19.506411+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2599604",
-            "new_value": "2599766"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2599766",
-            "new_value": "2600030"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:17:10.192167+00:00Z",
+        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28469,20 +28420,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2600030",
-            "new_value": "2600223"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:38:24.575141+00:00Z",
+        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28496,20 +28434,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2600223",
-            "new_value": "2600438"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:18:59.021906+00:00Z",
+        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28518,38 +28443,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2600438",
+                "new_value": "2600603"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-21T22:40:28.811973+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2600603",
                 "new_value": "2600852"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2600438",
-            "new_value": "2600603"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:40:28.811973+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2600603",
-            "new_value": "2600852"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T23:17:22.040544+00:00Z",
+        "timestamp": "2025-08-21T23:14:44.768015+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28558,38 +28471,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2600852",
+                "new_value": "2601042"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-21T23:37:24.418399+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2601042",
                 "new_value": "2601164"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T23:14:44.768015+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2600852",
-            "new_value": "2601042"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T23:37:24.418399+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2601042",
-            "new_value": "2601164"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T01:25:57.291553+00:00Z",
+        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28603,20 +28504,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2601164",
-            "new_value": "2601882"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:54:03.686581+00:00Z",
+        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28630,7 +28518,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T03:39:51.924214+00:00Z",
+        "timestamp": "2025-08-22T03:38:22.196839+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28644,33 +28532,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2601882",
-            "new_value": "2602509"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T03:38:22.196839+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2602509",
-            "new_value": "2602922"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T04:21:44.544031+00:00Z",
+        "timestamp": "2025-08-22T04:18:13.611913+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28679,25 +28541,12 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2602922",
-                "new_value": "2603250"
+                "new_value": "2603091"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T04:18:13.611913+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2602922",
-            "new_value": "2603091"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T05:18:48.287745+00:00Z",
+        "timestamp": "2025-08-22T05:16:05.339489+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28705,39 +28554,27 @@
                 "field": "housefire_reference_latest_block_height",
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
-                "old_value": "2603250",
+                "old_value": "2603091",
+                "new_value": "2603424"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T05:40:27.321278+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2603424",
                 "new_value": "2603643"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T05:16:05.339489+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2603091",
-            "new_value": "2603424"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T05:40:27.321278+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2603424",
-            "new_value": "2603643"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T06:29:22.207080+00:00Z",
+        "timestamp": "2025-08-22T06:24:10.945286+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28751,20 +28588,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T06:24:10.945286+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2603643",
-            "new_value": "2604088"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T07:17:29.148505+00:00Z",
+        "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28773,38 +28597,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2604088",
+                "new_value": "2604300"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T07:36:47.669313+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2604300",
                 "new_value": "2604459"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2604088",
-            "new_value": "2604300"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T07:36:47.669313+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2604300",
-            "new_value": "2604459"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:25:27.520139+00:00Z",
+        "timestamp": "2025-08-22T08:21:11.789162+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28813,38 +28625,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2604459",
+                "new_value": "2604623"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2604623",
                 "new_value": "2604911"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T08:21:11.789162+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2604459",
-            "new_value": "2604623"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2604623",
-            "new_value": "2604911"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T09:20:26.018594+00:00Z",
+        "timestamp": "2025-08-22T09:17:00.714545+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28853,38 +28653,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2604911",
+                "new_value": "2605102"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T09:39:57.137139+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2605102",
                 "new_value": "2605300"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T09:17:00.714545+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2604911",
-            "new_value": "2605102"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T09:39:57.137139+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2605102",
-            "new_value": "2605300"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T10:19:54.106116+00:00Z",
+        "timestamp": "2025-08-22T10:16:50.420917+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28893,38 +28681,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2605300",
+                "new_value": "2605466"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T10:42:37.018064+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2605466",
                 "new_value": "2605701"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T10:16:50.420917+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2605300",
-            "new_value": "2605466"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T10:42:37.018064+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2605466",
-            "new_value": "2605701"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T11:15:31.438286+00:00Z",
+        "timestamp": "2025-08-22T11:12:57.171207+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28933,38 +28709,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2605701",
+                "new_value": "2605903"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T11:35:47.354449+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2605903",
                 "new_value": "2606105"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T11:12:57.171207+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2605701",
-            "new_value": "2605903"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T11:35:47.354449+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2605903",
-            "new_value": "2606105"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T12:37:50.763856+00:00Z",
+        "timestamp": "2025-08-22T12:31:39.095540+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -28978,20 +28742,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T12:31:39.095540+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2606105",
-            "new_value": "2606621"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T13:28:26.070883+00:00Z",
+        "timestamp": "2025-08-22T13:25:54.218800+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -29005,20 +28756,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-22T13:25:54.218800+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2606621",
-            "new_value": "2606902"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T14:18:29.590879+00:00Z",
+        "timestamp": "2025-08-22T14:15:25.494673+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -29027,38 +28765,26 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2606902",
+                "new_value": "2607189"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T14:41:13.916227+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2607189",
                 "new_value": "2607393"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T14:15:25.494673+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2606902",
-            "new_value": "2607189"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T14:41:13.916227+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2607189",
-            "new_value": "2607393"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T15:19:16.568006+00:00Z",
+        "timestamp": "2025-08-22T15:16:17.698526+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -29067,25 +28793,12 @@
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
                 "old_value": "2607393",
-                "new_value": "2607826"
+                "new_value": "2607596"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T15:16:17.698526+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2607393",
-            "new_value": "2607596"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T16:22:55.251901+00:00Z",
+        "timestamp": "2025-08-22T16:19:11.206663+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -29093,39 +28806,27 @@
                 "field": "housefire_reference_latest_block_height",
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
-                "old_value": "2607826",
+                "old_value": "2607596",
+                "new_value": "2607999"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T16:45:00.783416+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2607999",
                 "new_value": "2608262"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T16:19:11.206663+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2607596",
-            "new_value": "2607999"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T16:45:00.783416+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": null,
-            "service": null,
-            "field": "housefire_reference_latest_block_height",
-            "full_path": "housefire_reference_latest_block_height",
-            "type": "modified",
-            "old_value": "2607999",
-            "new_value": "2608262"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T17:16:48.058559+00:00Z",
+        "timestamp": "2025-08-22T17:14:06.227959+00:00Z",
         "changes": [
             {
                 "team": null,

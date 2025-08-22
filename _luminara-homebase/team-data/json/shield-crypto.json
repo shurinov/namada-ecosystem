@@ -24069,26 +24069,8 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T18:27:10.753121+00:00Z",
+        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
         "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "interface",
-                "field": "status",
-                "full_path": "namada.operator.shield-crypto.interface.status",
-                "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "interface",
-                "field": "version",
-                "full_path": "namada.operator.shield-crypto.interface.version",
-                "type": "modified",
-                "old_value": "1.31.4",
-                "new_value": "n/a"
-            },
             {
                 "team": "shield-crypto",
                 "service": "interface",
@@ -24100,346 +24082,197 @@
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "0",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.0",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.indexer.service",
                 "type": "removed",
-                "old_value": {
-                    "service": "indexer",
-                    "url": "https://namada-indexer.shield-crypto.com",
-                    "status": "up",
-                    "version": "3.3.4",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3246126",
-                    "sync_state": "sync_ok"
-                },
+                "old_value": "indexer",
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "1",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.1",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.indexer.url",
                 "type": "removed",
-                "old_value": {
-                    "service": "masp",
-                    "url": "https://namada-public-masp.shield-crypto.com",
-                    "status": "up",
-                    "version": "1.3.0",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3246126",
-                    "sync_state": "sync_ok"
-                },
+                "old_value": "https://namada-indexer.shield-crypto.com",
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "2",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.2",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
                 "type": "removed",
-                "old_value": {
-                    "service": "rpc",
-                    "url": "https://namada-public-rpc.shield-crypto.com",
-                    "status": "up",
-                    "version": "0.37.15",
-                    "is_up_to_date": true,
-                    "namada_version": "101.1.1",
-                    "latest_block_height": "3246126",
-                    "sync_state": "sync_ok"
-                },
+                "old_value": "up",
                 "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "removed",
+                "old_value": "3.3.4",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.masp.url",
+                "type": "removed",
+                "old_value": "https://namada-public-masp.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "removed",
+                "old_value": "1.3.0",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://namada-public-rpc.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "101.1.1",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "n/a"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
-            "type": "modified",
-            "old_value": true,
-            "new_value": false
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.interface.status",
-            "type": "modified",
-            "old_value": "up",
-            "new_value": "down"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.indexer.service",
-            "type": "removed",
-            "old_value": "indexer",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.indexer.url",
-            "type": "removed",
-            "old_value": "https://namada-indexer.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.indexer.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.indexer.version",
-            "type": "removed",
-            "old_value": "3.3.4",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.masp.service",
-            "type": "removed",
-            "old_value": "masp",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.masp.url",
-            "type": "removed",
-            "old_value": "https://namada-public-masp.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "removed",
-            "old_value": "1.3.0",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.rpc.service",
-            "type": "removed",
-            "old_value": "rpc",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.rpc.url",
-            "type": "removed",
-            "old_value": "https://namada-public-rpc.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "removed",
-            "old_value": "0.37.15",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "removed",
-            "old_value": "101.1.1",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T18:47:20.709854+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.interface.version",
-            "type": "modified",
-            "old_value": "1.31.4",
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:20:17.720722+00:00Z",
+        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
@@ -24471,345 +24304,178 @@
             {
                 "team": "shield-crypto",
                 "service": "indexer",
-                "field": "0",
-                "full_path": "namada.operator.shield-crypto.service.indexer.0",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.indexer.service",
                 "type": "added",
                 "old_value": null,
-                "new_value": {
-                    "service": "indexer",
-                    "url": "https://namada-indexer.shield-crypto.com",
-                    "status": "up",
-                    "version": "3.3.4",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3247085",
-                    "sync_state": "sync_nok"
-                }
+                "new_value": "indexer"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.indexer.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-indexer.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "3.3.4"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_nok"
             },
             {
                 "team": "shield-crypto",
                 "service": "masp",
-                "field": "1",
-                "full_path": "namada.operator.shield-crypto.service.masp.1",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.masp.service",
                 "type": "added",
                 "old_value": null,
-                "new_value": {
-                    "service": "masp",
-                    "url": "https://namada-public-masp.shield-crypto.com",
-                    "status": "up",
-                    "version": "1.3.0",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3247824",
-                    "sync_state": "sync_ok"
-                }
+                "new_value": "masp"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.masp.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-public-masp.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "1.3.0"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_ok"
             },
             {
                 "team": "shield-crypto",
                 "service": "rpc",
-                "field": "2",
-                "full_path": "namada.operator.shield-crypto.service.rpc.2",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.rpc.service",
                 "type": "added",
                 "old_value": null,
-                "new_value": {
-                    "service": "rpc",
-                    "url": "https://namada-public-rpc.shield-crypto.com",
-                    "status": "up",
-                    "version": "0.37.15",
-                    "is_up_to_date": true,
-                    "namada_version": "101.1.1",
-                    "latest_block_height": "3247824",
-                    "sync_state": "sync_ok"
-                }
+                "new_value": "rpc"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.rpc.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-public-rpc.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "0.37.15"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "101.1.1"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_ok"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.interface.status",
-            "type": "modified",
-            "old_value": "down",
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.interface.version",
-            "type": "modified",
-            "old_value": "n/a",
-            "new_value": "1.31.4"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
-            "type": "modified",
-            "old_value": false,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.indexer.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "indexer"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.indexer.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-indexer.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.indexer.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.indexer.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "3.3.4"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_nok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.masp.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "masp"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.masp.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-public-masp.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "1.3.0"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.rpc.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "rpc"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.rpc.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-public-rpc.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "0.37.15"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "101.1.1"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T20:40:06.172964+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:17:10.192167+00:00Z",
+        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
@@ -24819,6 +24485,177 @@
                 "type": "modified",
                 "old_value": "up",
                 "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.indexer.service",
+                "type": "removed",
+                "old_value": "indexer",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.indexer.url",
+                "type": "removed",
+                "old_value": "https://namada-indexer.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "removed",
+                "old_value": "3.3.4",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_nok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.masp.url",
+                "type": "removed",
+                "old_value": "https://namada-public-masp.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "removed",
+                "old_value": "1.3.0",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://namada-public-rpc.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "101.1.1",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
             },
             {
                 "team": "shield-crypto",
@@ -24837,358 +24674,182 @@
                 "type": "modified",
                 "old_value": true,
                 "new_value": false
-            },
-            {
-                "team": "shield-crypto",
-                "service": null,
-                "field": "0",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.0",
-                "type": "removed",
-                "old_value": {
-                    "service": "indexer",
-                    "url": "https://namada-indexer.shield-crypto.com",
-                    "status": "up",
-                    "version": "3.3.4",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3247085",
-                    "sync_state": "sync_nok"
-                },
-                "new_value": null
-            },
-            {
-                "team": "shield-crypto",
-                "service": null,
-                "field": "1",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.1",
-                "type": "removed",
-                "old_value": {
-                    "service": "masp",
-                    "url": "https://namada-public-masp.shield-crypto.com",
-                    "status": "up",
-                    "version": "1.3.0",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3247824",
-                    "sync_state": "sync_ok"
-                },
-                "new_value": null
-            },
-            {
-                "team": "shield-crypto",
-                "service": null,
-                "field": "2",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.2",
-                "type": "removed",
-                "old_value": {
-                    "service": "rpc",
-                    "url": "https://namada-public-rpc.shield-crypto.com",
-                    "status": "up",
-                    "version": "0.37.15",
-                    "is_up_to_date": true,
-                    "namada_version": "101.1.1",
-                    "latest_block_height": "3247824",
-                    "sync_state": "sync_ok"
-                },
-                "new_value": null
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.interface.status",
-            "type": "modified",
-            "old_value": "up",
-            "new_value": "down"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.indexer.service",
-            "type": "removed",
-            "old_value": "indexer",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.indexer.url",
-            "type": "removed",
-            "old_value": "https://namada-indexer.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.indexer.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.indexer.version",
-            "type": "removed",
-            "old_value": "3.3.4",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "removed",
-            "old_value": "sync_nok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.masp.service",
-            "type": "removed",
-            "old_value": "masp",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.masp.url",
-            "type": "removed",
-            "old_value": "https://namada-public-masp.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "removed",
-            "old_value": "1.3.0",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.rpc.service",
-            "type": "removed",
-            "old_value": "rpc",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.rpc.url",
-            "type": "removed",
-            "old_value": "https://namada-public-rpc.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "removed",
-            "old_value": "0.37.15",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "removed",
-            "old_value": "101.1.1",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.interface.version",
-            "type": "modified",
-            "old_value": "1.31.4",
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:14:30.612252+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
-            "type": "modified",
-            "old_value": true,
-            "new_value": false
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:38:24.575141+00:00Z",
+        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
-                "service": "interface",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.indexer.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "indexer"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.indexer.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-indexer.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
                 "field": "status",
-                "full_path": "namada.operator.shield-crypto.interface.status",
-                "type": "modified",
-                "old_value": "down",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "added",
+                "old_value": null,
                 "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "3.3.4"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.masp.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "masp"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.masp.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-public-masp.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": false
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.rpc.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "rpc"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.rpc.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-public-rpc.shield-crypto.com"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": false
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_nok"
             },
             {
                 "team": "shield-crypto",
@@ -25202,355 +24863,62 @@
             {
                 "team": "shield-crypto",
                 "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "interface",
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
                 "type": "modified",
                 "old_value": false,
                 "new_value": true
             },
             {
                 "team": "shield-crypto",
-                "service": "indexer",
-                "field": "0",
-                "full_path": "namada.operator.shield-crypto.service.indexer.0",
-                "type": "added",
-                "old_value": null,
-                "new_value": {
-                    "service": "indexer",
-                    "url": "https://namada-indexer.shield-crypto.com",
-                    "status": "up",
-                    "version": "3.3.4",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3247114",
-                    "sync_state": "sync_nok"
-                }
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "1",
-                "full_path": "namada.operator.shield-crypto.service.masp.1",
-                "type": "added",
-                "old_value": null,
-                "new_value": {
-                    "service": "masp",
-                    "url": "https://namada-public-masp.shield-crypto.com",
-                    "status": "down",
-                    "version": "n/a",
-                    "is_up_to_date": false,
-                    "latest_block_height": "0",
-                    "sync_state": "sync_nok"
-                }
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "101.1.1"
             },
             {
                 "team": "shield-crypto",
                 "service": "rpc",
-                "field": "2",
-                "full_path": "namada.operator.shield-crypto.service.rpc.2",
-                "type": "added",
-                "old_value": null,
-                "new_value": {
-                    "service": "rpc",
-                    "url": "https://namada-public-rpc.shield-crypto.com",
-                    "status": "down",
-                    "version": "n/a",
-                    "is_up_to_date": false,
-                    "namada_version": "n/a",
-                    "latest_block_height": "0",
-                    "sync_state": "sync_nok"
-                }
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.indexer.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "indexer"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.indexer.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-indexer.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.indexer.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.indexer.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "3.3.4"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_nok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.masp.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "masp"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.masp.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-public-masp.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "down"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": false
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_nok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.rpc.service",
-            "type": "added",
-            "old_value": null,
-            "new_value": "rpc"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.rpc.url",
-            "type": "added",
-            "old_value": null,
-            "new_value": "https://namada-public-rpc.shield-crypto.com"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "added",
-            "old_value": null,
-            "new_value": "down"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "added",
-            "old_value": null,
-            "new_value": false
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "added",
-            "old_value": null,
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "added",
-            "old_value": null,
-            "new_value": "sync_nok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.interface.version",
-            "type": "modified",
-            "old_value": "n/a",
-            "new_value": "1.31.4"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.interface.status",
-            "type": "modified",
-            "old_value": "down",
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T21:36:56.257201+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
-            "type": "modified",
-            "old_value": false,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:18:59.021906+00:00Z",
-        "changes": [
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "0.37.15"
+            },
             {
                 "team": "shield-crypto",
                 "service": "masp",
@@ -25563,15 +24931,6 @@
             {
                 "team": "shield-crypto",
                 "service": "masp",
-                "field": "version",
-                "full_path": "namada.operator.shield-crypto.service.masp.version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "1.3.0"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
                 "type": "modified",
@@ -25580,144 +24939,26 @@
             },
             {
                 "team": "shield-crypto",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.shield-crypto.service.rpc.status",
-                "type": "modified",
-                "old_value": "down",
-                "new_value": "up"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
+                "service": "masp",
                 "field": "version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
                 "type": "modified",
                 "old_value": "n/a",
-                "new_value": "0.37.15"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": false,
-                "new_value": true
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "101.1.1"
+                "new_value": "1.3.0"
             }
         ]
     },
     {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "modified",
-            "old_value": "down",
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "modified",
-            "old_value": false,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "modified",
-            "old_value": "n/a",
-            "new_value": "101.1.1"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "modified",
-            "old_value": "n/a",
-            "new_value": "0.37.15"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "modified",
-            "old_value": "down",
-            "new_value": "up"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "modified",
-            "old_value": false,
-            "new_value": true
-        }
-    },
-    {
-        "timestamp": "2025-08-21T22:15:39.296257+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "modified",
-            "old_value": "n/a",
-            "new_value": "1.3.0"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T23:17:22.040544+00:00Z",
+        "timestamp": "2025-08-21T23:14:44.768015+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
+                "old_value": "3248698",
+                "new_value": "3249082"
             },
             {
                 "team": "shield-crypto",
@@ -25731,59 +24972,7 @@
         ]
     },
     {
-        "timestamp": "2025-08-21T23:14:44.768015+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
-            "type": "modified",
-            "old_value": "3248698",
-            "new_value": "3249082"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T23:14:44.768015+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "modified",
-            "old_value": "sync_nok",
-            "new_value": "sync_ok"
-        }
-    },
-    {
         "timestamp": "2025-08-21T23:37:24.418399+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "modified",
-            "old_value": "sync_nok",
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-21T23:37:24.418399+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-            "type": "modified",
-            "old_value": "3248192",
-            "new_value": "3249357"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T01:25:57.291553+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
@@ -25791,8 +24980,31 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3248192",
+                "new_value": "3249357"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "3249358",
+                "new_value": "3250156"
             },
             {
                 "team": "shield-crypto",
@@ -25802,64 +25014,48 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3249357",
+                "new_value": "3250155"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
             }
         ]
     },
     {
-        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
-            "type": "modified",
-            "old_value": "3249358",
-            "new_value": "3250156"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "modified",
-            "old_value": "sync_ok",
-            "new_value": "sync_lag"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-            "type": "modified",
-            "old_value": "3249357",
-            "new_value": "3250155"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T01:14:35.641997+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "modified",
-            "old_value": "sync_ok",
-            "new_value": "sync_lag"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:54:03.686581+00:00Z",
+        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
         "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "3250156",
+                "new_value": "3251045"
+            },
             {
                 "team": "shield-crypto",
                 "service": "indexer",
@@ -25868,6 +25064,15 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_ok"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "3247651",
+                "new_value": "3251044"
             },
             {
                 "team": "shield-crypto",
@@ -25880,294 +25085,55 @@
             },
             {
                 "team": "shield-crypto",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "modified",
-            "old_value": "sync_lag",
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
-            "type": "modified",
-            "old_value": "3250156",
-            "new_value": "3251045"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "modified",
-            "old_value": "sync_nok",
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
-            "type": "modified",
-            "old_value": "3247651",
-            "new_value": "3251044"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "modified",
-            "old_value": "sync_lag",
-            "new_value": "sync_ok"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T02:51:55.986851+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-            "type": "modified",
-            "old_value": "3250155",
-            "new_value": "3251044"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T04:21:44.544031+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "shield-crypto",
                 "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.shield-crypto.service.rpc.status",
-                "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.15",
-                "new_value": "n/a"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-                "type": "modified",
-                "old_value": "101.1.1",
-                "new_value": "n/a"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-08-22T05:18:48.287745+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.shield-crypto.service.rpc.status",
-                "type": "modified",
-                "old_value": "down",
-                "new_value": "up"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "0.37.15"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": false,
-                "new_value": true
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "101.1.1"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-08-22T07:17:29.148505+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
+                "old_value": "3250155",
+                "new_value": "3251044"
             }
         ]
     },
     {
         "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "modified",
-            "old_value": "sync_ok",
-            "new_value": "sync_lag"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T07:14:46.625980+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "latest_block_height",
-            "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
-            "type": "modified",
-            "old_value": "3253021",
-            "new_value": "3253212"
-        }
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "3253021",
+                "new_value": "3253212"
+            }
+        ]
     },
     {
         "timestamp": "2025-08-22T07:36:47.669313+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "modified",
-            "old_value": "sync_lag",
-            "new_value": "sync_nok"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:25:27.520139+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
-                "service": "interface",
-                "field": "status",
-                "full_path": "namada.operator.shield-crypto.interface.status",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
                 "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
-            },
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
+        "changes": [
             {
                 "team": "shield-crypto",
                 "service": "interface",
@@ -26180,6 +25146,15 @@
             {
                 "team": "shield-crypto",
                 "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "interface",
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
                 "type": "modified",
@@ -26188,342 +25163,175 @@
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "0",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.0",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.indexer.service",
                 "type": "removed",
-                "old_value": {
-                    "service": "indexer",
-                    "url": "https://namada-indexer.shield-crypto.com",
-                    "status": "up",
-                    "version": "3.3.4",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3253212",
-                    "sync_state": "sync_nok"
-                },
+                "old_value": "indexer",
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "1",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.1",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.indexer.url",
                 "type": "removed",
-                "old_value": {
-                    "service": "masp",
-                    "url": "https://namada-public-masp.shield-crypto.com",
-                    "status": "up",
-                    "version": "1.3.0",
-                    "is_up_to_date": true,
-                    "latest_block_height": "3253481",
-                    "sync_state": "sync_ok"
-                },
+                "old_value": "https://namada-indexer.shield-crypto.com",
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
-                "service": null,
-                "field": "2",
-                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.2",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
                 "type": "removed",
-                "old_value": {
-                    "service": "rpc",
-                    "url": "https://namada-public-rpc.shield-crypto.com",
-                    "status": "up",
-                    "version": "0.37.15",
-                    "is_up_to_date": true,
-                    "namada_version": "101.1.1",
-                    "latest_block_height": "3253481",
-                    "sync_state": "sync_ok"
-                },
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "removed",
+                "old_value": "3.3.4",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_nok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.masp.url",
+                "type": "removed",
+                "old_value": "https://namada-public-masp.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "removed",
+                "old_value": "1.3.0",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.shield-crypto.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.shield-crypto.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://namada-public-rpc.shield-crypto.com",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "101.1.1",
+                "new_value": null
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
                 "new_value": null
             }
         ]
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.interface.version",
-            "type": "modified",
-            "old_value": "1.31.4",
-            "new_value": "n/a"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.interface.status",
-            "type": "modified",
-            "old_value": "up",
-            "new_value": "down"
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "interface",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.interface.is_up_to_date",
-            "type": "modified",
-            "old_value": true,
-            "new_value": false
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.indexer.service",
-            "type": "removed",
-            "old_value": "indexer",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.indexer.url",
-            "type": "removed",
-            "old_value": "https://namada-indexer.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.indexer.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.indexer.version",
-            "type": "removed",
-            "old_value": "3.3.4",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "indexer",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-            "type": "removed",
-            "old_value": "sync_nok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.masp.service",
-            "type": "removed",
-            "old_value": "masp",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.masp.url",
-            "type": "removed",
-            "old_value": "https://namada-public-masp.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.masp.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.masp.version",
-            "type": "removed",
-            "old_value": "1.3.0",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "masp",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "service",
-            "full_path": "namada.operator.shield-crypto.service.rpc.service",
-            "type": "removed",
-            "old_value": "rpc",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "url",
-            "full_path": "namada.operator.shield-crypto.service.rpc.url",
-            "type": "removed",
-            "old_value": "https://namada-public-rpc.shield-crypto.com",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "status",
-            "full_path": "namada.operator.shield-crypto.service.rpc.status",
-            "type": "removed",
-            "old_value": "up",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.version",
-            "type": "removed",
-            "old_value": "0.37.15",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "is_up_to_date",
-            "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
-            "type": "removed",
-            "old_value": true,
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "namada_version",
-            "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
-            "type": "removed",
-            "old_value": "101.1.1",
-            "new_value": null
-        }
-    },
-    {
-        "timestamp": "2025-08-22T08:45:38.470484+00:00Z",
-        "type": "change",
-        "change_data": {
-            "team": "shield-crypto",
-            "service": "rpc",
-            "field": "sync_state",
-            "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
-            "type": "removed",
-            "old_value": "sync_ok",
-            "new_value": null
-        }
     }
 ]
