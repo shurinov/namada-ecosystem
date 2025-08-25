@@ -3943,5 +3943,19 @@
                 "new_value": "3288236"
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-25T14:19:43.696287+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
