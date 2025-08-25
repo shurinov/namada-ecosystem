@@ -9689,5 +9689,19 @@
                 "new_value": "1.3.0"
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-25T18:28:23.703181+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
