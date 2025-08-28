@@ -3317,5 +3317,37 @@
                 "new_value": "3334214"
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-28T21:16:51.316297+00:00Z",
+        "changes": [
+            {
+                "team": "MELLIFERA",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.MELLIFERA.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "MELLIFERA",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.MELLIFERA.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "MELLIFERA",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.MELLIFERA.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]

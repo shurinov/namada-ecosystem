@@ -1573,5 +1573,37 @@
                 "new_value": "3334215"
             }
         ]
+    },
+    {
+        "timestamp": "2025-08-28T21:16:51.316297+00:00Z",
+        "changes": [
+            {
+                "team": "Palamar",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Palamar",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Palamar",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
