@@ -5075,5 +5075,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-01T15:37:36.952865+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Grand Valley.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "3380656",
+                "new_value": "3380816"
+            }
+        ]
     }
 ]
