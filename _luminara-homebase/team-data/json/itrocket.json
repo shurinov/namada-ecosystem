@@ -2538,5 +2538,19 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-08T12:39:48.884691+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
