@@ -4774,5 +4774,19 @@
                 "new_value": "3449731"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-08T11:37:30.333256+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
