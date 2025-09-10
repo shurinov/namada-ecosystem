@@ -2612,5 +2612,89 @@
                 "new_value": "35169"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-10T07:17:57.805714+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.itrocket.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "itrocket",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.itrocket.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "itrocket",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "itrocket",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.itrocket.networks.0.interface.20.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3487277",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "itrocket",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.itrocket.networks.0.interface.20.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp-indexer.itrocket.net:443",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "2120870",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "itrocket",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.itrocket.networks.0.interface.20.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.itrocket.net:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "3487277",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
