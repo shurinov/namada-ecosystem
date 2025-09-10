@@ -3,9 +3,9 @@
     "chains": [
       {
         "chain_id": "housefire-alpaca.cc0d3e0c033be",
-        "client_id": "07-tendermint-43",
-        "connection_id": "connection-24",
-        "channel_id": "channel-22",
+        "client_id": "07-tendermint-56",
+        "connection_id": "connection-30",
+        "channel_id": "channel-27",
         "port_id": "transfer",
         "supported_tokens": [
           {
@@ -17,14 +17,19 @@
       },
       {
         "chain_id": "grand-1",
-        "client_id": "07-tendermint-531",
-        "connection_id": "connection-493",
-        "channel_id": "channel-551",
+        "client_id": "07-tendermint-547",
+        "connection_id": "connection-505",
+        "channel_id": "channel-639",
         "port_id": "transfer",
         "supported_tokens": [
           {
             "denom": "uusdc",
             "symbol": "USDC",
+            "decimals": 6
+          },
+          {
+            "denom": "uusdn",
+            "symbol": "USDN",
             "decimals": 6
           }
         ]
@@ -39,6 +44,15 @@
         "relayer_wallet_address": {
           "housefire": "tnam1qr5s52md6m43w07vy98t08zurvzywg3c9ym6zmd9",
           "grand-1": "noble1tdl8wlqx0w8laeqytxx9rphfcu7cm2cyq93pue"
+        }
+      },
+      {
+        "team_or_contributor_name": "Knowable",
+        "github_account": "vknowable",
+        "creator_maintainer": "yes",
+        "relayer_wallet_address": {
+          "housefire": "tnam1qqmy64ewz463mdxnrjd5ra76tq9qv8tdpyjsy7qr",
+          "grand-1": "noble1nfctx22mxedsrsf30a4pnkldw4hhfc4gd9uq5w"
         }
       }
     ]
