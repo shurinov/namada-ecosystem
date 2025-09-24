@@ -2466,5 +2466,28 @@
                 "new_value": "3663286"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-24T14:40:08.270766+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "papadritta",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
