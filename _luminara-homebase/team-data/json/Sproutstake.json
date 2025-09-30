@@ -6589,5 +6589,19 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2025-09-30T14:18:31.399709+00:00Z",
+        "changes": [
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Sproutstake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
