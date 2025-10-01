@@ -7287,5 +7287,62 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-01T23:15:35.444500+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.Grand Valley.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://indexer-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3754311",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.Grand Valley.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp-indexer-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "3754312",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.Grand Valley.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://lightnode-rpc-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "3754312",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
