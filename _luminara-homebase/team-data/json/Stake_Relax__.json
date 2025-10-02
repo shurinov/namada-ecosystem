@@ -6810,5 +6810,19 @@
                 "new_value": "3765769"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-02T21:32:47.879678+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
