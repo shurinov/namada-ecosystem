@@ -12780,5 +12780,28 @@
                 "new_value": "0.37.15"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-03T12:37:08.192498+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "1.4.4"
+            },
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.deNodes.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
