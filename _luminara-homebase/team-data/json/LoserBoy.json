@@ -7571,5 +7571,37 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-03T12:31:17.973867+00:00Z",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.LoserBoy.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.LoserBoy.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.LoserBoy.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
