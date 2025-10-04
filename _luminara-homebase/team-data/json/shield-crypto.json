@@ -1,307 +1,39 @@
 [
     {
-        "timestamp": "2025-10-03T18:15:41.528037+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T18:34:34.866478+00:00Z",
+        "timestamp": "2025-10-04T04:38:04.639964+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
+                "old_value": "up",
+                "new_value": "down"
             },
             {
                 "team": "shield-crypto",
                 "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
                 "type": "modified",
-                "old_value": "3775739",
-                "new_value": "3776692"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T18:43:49.580353+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
+                "old_value": "3.3.4",
+                "new_value": "n/a"
             },
             {
                 "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T19:08:52.082147+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T19:33:21.910572+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T21:09:30.007198+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T21:20:07.417716+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
                 "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
                 "type": "modified",
-                "old_value": "3777673",
-                "new_value": "3778097"
+                "old_value": true,
+                "new_value": false
             },
             {
                 "team": "shield-crypto",
                 "service": "indexer",
                 "field": "sync_state",
                 "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3776992",
-                "new_value": "3778109"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T21:32:58.871282+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T22:09:50.311617+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T22:21:50.739352+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3778109",
-                "new_value": "3778439"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T22:35:00.098243+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T23:20:51.306569+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3778439",
-                "new_value": "3779075"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-03T23:32:47.882764+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-04T00:48:46.738717+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-04T01:48:38.982141+00:00Z",
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
@@ -309,56 +41,26 @@
             {
                 "team": "shield-crypto",
                 "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
                 "type": "modified",
-                "old_value": "3779075",
-                "new_value": "3779572"
+                "old_value": "up",
+                "new_value": "down"
             },
             {
                 "team": "shield-crypto",
-                "service": "indexer",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
                 "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "3779074",
-                "new_value": "3780138"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-04T03:39:42.640985+00:00Z",
-=======
-        "timestamp": "2025-10-04T03:29:39.664216+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
-<<<<<<< Updated upstream
-=======
-                "field": "latest_block_height",
-                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "3780901",
-                "new_value": "3781213"
-            },
-            {
-                "team": "shield-crypto",
-                "service": "indexer",
->>>>>>> Stashed changes
-                "field": "sync_state",
-                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
