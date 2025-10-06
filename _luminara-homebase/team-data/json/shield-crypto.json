@@ -582,6 +582,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-06T16:31:41.908888+00:00Z",
         "changes": [
             {
@@ -592,6 +593,18 @@
                 "type": "modified",
                 "old_value": "3811877",
                 "new_value": "3812192"
+=======
+        "timestamp": "2025-10-06T16:42:42.227166+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -601,6 +614,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "shield-crypto",
@@ -619,6 +633,8 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
