@@ -6014,5 +6014,19 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-06T13:26:06.539629+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]

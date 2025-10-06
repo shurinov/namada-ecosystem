@@ -14763,5 +14763,28 @@
                 "new_value": "1.4.4"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-06T13:26:06.539629+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "3046986",
+                "new_value": "3047261"
+            },
+            {
+                "team": null,
+                "service": "masp",
+                "field": "masp",
+                "full_path": "required_versions.masp",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "1.4.4"
+            }
+        ]
     }
 ]
