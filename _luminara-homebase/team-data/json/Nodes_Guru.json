@@ -422,7 +422,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-07T10:26:45.187246+00:00Z",
+=======
+        "timestamp": "2025-10-07T10:40:01.944755+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Nodes.Guru",
@@ -432,6 +436,7 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Nodes.Guru",
@@ -441,6 +446,8 @@
                 "type": "modified",
                 "old_value": "3821209",
                 "new_value": "3821660"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
