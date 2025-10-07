@@ -215,5 +215,37 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-07T16:43:13.967708+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
