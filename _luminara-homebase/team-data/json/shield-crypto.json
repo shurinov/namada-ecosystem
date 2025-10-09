@@ -543,16 +543,37 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-09T04:29:50.718556+00:00Z",
+=======
+        "timestamp": "2025-10-09T04:40:13.740796+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
                 "type": "modified",
                 "old_value": "3842857",
                 "new_value": "0"
+=======
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "n/a"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -566,6 +587,7 @@
             {
                 "team": "shield-crypto",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "status",
                 "full_path": "namada.operator.shield-crypto.service.indexer.status",
                 "type": "modified",
@@ -575,6 +597,8 @@
             {
                 "team": "shield-crypto",
                 "service": "indexer",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
                 "type": "modified",
@@ -583,6 +607,7 @@
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "version",
                 "full_path": "namada.operator.shield-crypto.service.indexer.version",
@@ -592,6 +617,8 @@
             },
             {
                 "team": "shield-crypto",
+=======
+>>>>>>> Stashed changes
                 "service": "masp",
                 "field": "status",
                 "full_path": "namada.operator.shield-crypto.service.masp.status",
