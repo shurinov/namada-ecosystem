@@ -638,7 +638,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-09T13:35:18.862078+00:00Z",
+=======
+        "timestamp": "2025-10-09T13:44:49.567066+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "itrocket",
@@ -651,6 +655,7 @@
             },
             {
                 "team": "itrocket",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.itrocket.service.indexer.latest_block_height",
@@ -660,12 +665,15 @@
             },
             {
                 "team": "itrocket",
+=======
+>>>>>>> Stashed changes
                 "service": "rpc",
                 "field": "sync_state",
                 "full_path": "namada.operator.itrocket.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "itrocket",
@@ -675,6 +683,8 @@
                 "type": "modified",
                 "old_value": "3847355",
                 "new_value": "3847960"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }

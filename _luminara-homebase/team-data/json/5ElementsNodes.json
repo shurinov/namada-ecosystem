@@ -564,7 +564,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-09T13:35:18.862078+00:00Z",
+=======
+        "timestamp": "2025-10-09T13:44:49.567066+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -577,6 +581,7 @@
             },
             {
                 "team": "5ElementsNodes",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
@@ -586,12 +591,15 @@
             },
             {
                 "team": "5ElementsNodes",
+=======
+>>>>>>> Stashed changes
                 "service": "rpc",
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "5ElementsNodes",
@@ -601,6 +609,8 @@
                 "type": "modified",
                 "old_value": "3847368",
                 "new_value": "3847777"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
