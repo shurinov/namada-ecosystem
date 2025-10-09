@@ -480,5 +480,64 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-09T12:53:58.486660+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "3846801",
+                "new_value": "3847368"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3846765",
+                "new_value": "3847316"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "3846801",
+                "new_value": "3847367"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
