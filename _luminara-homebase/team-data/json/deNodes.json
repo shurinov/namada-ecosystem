@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-12T18:14:17.077401+00:00Z",
+        "timestamp": "2025-10-12T20:11:46.483188+00:00Z",
         "changes": [
             {
                 "team": "deNodes",
@@ -8,133 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.deNodes.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.deNodes.service.rpc.status",
-                "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.deNodes.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.15",
-                "new_value": "n/a"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.deNodes.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.deNodes.service.rpc.namada_version",
-                "type": "modified",
-                "old_value": "101.1.1",
-                "new_value": "n/a"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-12T18:31:51.075169+00:00Z",
-=======
-        "timestamp": "2025-10-12T18:41:06.184704+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3886613",
-                "new_value": "3887159"
-            },
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-=======
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.deNodes.service.rpc.status",
-                "type": "modified",
-                "old_value": "down",
-                "new_value": "up"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.deNodes.service.rpc.version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "0.37.15"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.deNodes.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": false,
-                "new_value": true
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.deNodes.service.rpc.namada_version",
-                "type": "modified",
-                "old_value": "n/a",
-                "new_value": "101.1.1"
-            },
-            {
-                "team": "deNodes",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
+                "old_value": "sync_lag",
                 "new_value": "sync_ok"
->>>>>>> Stashed changes
             }
         ]
     }

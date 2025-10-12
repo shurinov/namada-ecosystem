@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-12T18:14:17.077401+00:00Z",
+        "timestamp": "2025-10-12T20:11:46.483188+00:00Z",
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -8,42 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-12T18:31:51.075169+00:00Z",
-=======
-        "timestamp": "2025-10-12T18:41:06.184704+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3886613",
-                "new_value": "3887159"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-=======
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
->>>>>>> Stashed changes
-                "new_value": "sync_lag"
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
             }
         ]
     }
