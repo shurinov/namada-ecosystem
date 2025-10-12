@@ -47969,5 +47969,19 @@
                 "new_value": "3.3.4"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-12T15:16:24.821856+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
