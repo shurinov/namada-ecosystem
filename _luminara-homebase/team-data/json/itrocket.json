@@ -9146,5 +9146,28 @@
                 "new_value": "3888334"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-12T22:13:17.536275+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3888641",
+                "new_value": "3888751"
+            },
+            {
+                "team": "itrocket",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
