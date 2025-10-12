@@ -645,7 +645,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-12T16:27:43.033257+00:00Z",
+=======
+        "timestamp": "2025-10-12T16:38:59.393695+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Palamar",
@@ -653,6 +657,7 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Palamar.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
             },
@@ -664,6 +669,10 @@
                 "type": "modified",
                 "old_value": "3885515",
                 "new_value": "3885782"
+=======
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
