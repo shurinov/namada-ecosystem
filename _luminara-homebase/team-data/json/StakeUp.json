@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-12T17:32:57.234807+00:00Z",
+=======
+        "timestamp": "2025-10-12T17:19:07.569023+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "StakeUp",
@@ -10,6 +14,18 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_ok"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3885782",
+                "new_value": "3886613"
+>>>>>>> Stashed changes
             }
         ]
     }
