@@ -37,7 +37,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-13T22:22:52.611308+00:00Z",
+=======
+        "timestamp": "2025-10-13T22:36:30.035724+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
@@ -47,6 +51,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "shield-crypto",
@@ -56,6 +61,8 @@
                 "type": "modified",
                 "old_value": "3900855",
                 "new_value": "3901203"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
