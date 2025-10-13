@@ -8194,5 +8194,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-13T11:13:53.058162+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3894900",
+                "new_value": "3895409"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
