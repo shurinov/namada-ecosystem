@@ -48547,5 +48547,28 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-14T18:46:40.914722+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.6",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
