@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-14T10:12:36.310716+00:00Z",
+        "timestamp": "2025-10-14T11:10:07.374193+00:00Z",
         "changes": [
             {
                 "team": "Palamar",
@@ -8,42 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Palamar.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
+                "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-14T10:41:10.051988+00:00Z",
-=======
-        "timestamp": "2025-10-14T10:27:35.218131+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Palamar",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "sync_state",
-                "full_path": "namada.operator.Palamar.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-=======
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Palamar.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3907057",
-                "new_value": "3907599"
-            },
-            {
-                "team": "Palamar",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Palamar.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
->>>>>>> Stashed changes
-                "new_value": "sync_ok"
             }
         ]
     }
