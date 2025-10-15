@@ -7080,11 +7080,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-15T07:26:20.707339+00:00Z",
+=======
+        "timestamp": "2025-10-15T07:36:54.551458+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Sproutstake",
                 "service": "interface",
+<<<<<<< Updated upstream
                 "field": "version",
                 "full_path": "namada.operator.Sproutstake.interface.version",
                 "type": "modified",
@@ -7094,6 +7099,8 @@
             {
                 "team": "Sproutstake",
                 "service": "interface",
+=======
+>>>>>>> Stashed changes
                 "field": "status",
                 "full_path": "namada.operator.Sproutstake.interface.status",
                 "type": "modified",
@@ -7103,6 +7110,18 @@
             {
                 "team": "Sproutstake",
                 "service": "interface",
+<<<<<<< Updated upstream
+=======
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+>>>>>>> Stashed changes
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.Sproutstake.interface.is_up_to_date",
                 "type": "modified",
