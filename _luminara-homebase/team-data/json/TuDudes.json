@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-15T05:11:40.681240+00:00Z",
+        "timestamp": "2025-10-15T08:16:34.645759+00:00Z",
         "changes": [
             {
                 "team": "TuDudes",
@@ -10,78 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-15T05:25:03.837974+00:00Z",
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-15T06:17:50.071133+00:00Z",
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-15T06:47:08.494521+00:00Z",
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-15T07:26:20.707339+00:00Z",
-=======
-        "timestamp": "2025-10-15T07:36:54.551458+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3917390",
-                "new_value": "3918248"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
