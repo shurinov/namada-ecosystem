@@ -1,31 +1,15 @@
 [
     {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-16T10:28:59.953334+00:00Z",
-=======
-        "timestamp": "2025-10-16T10:41:40.414806+00:00Z",
->>>>>>> Stashed changes
+        "timestamp": "2025-10-16T11:10:08.867208+00:00Z",
         "changes": [
             {
                 "team": "deNodes",
                 "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3931561",
-                "new_value": "3932142"
-            },
-            {
-                "team": "deNodes",
-                "service": "masp",
-=======
->>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.deNodes.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
             }
         ]
     }
