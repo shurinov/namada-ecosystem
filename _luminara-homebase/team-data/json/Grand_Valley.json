@@ -770,11 +770,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-16T09:28:24.835224+00:00Z",
+=======
+        "timestamp": "2025-10-16T09:39:29.761936+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Grand Valley",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Grand Valley.service.masp.latest_block_height",
                 "type": "modified",
@@ -784,6 +789,8 @@
             {
                 "team": "Grand Valley",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
                 "type": "modified",
