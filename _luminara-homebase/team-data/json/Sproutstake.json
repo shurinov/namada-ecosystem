@@ -64,11 +64,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-17T06:45:43.724683+00:00Z",
+=======
+        "timestamp": "2025-10-17T06:36:44.921741+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Sproutstake",
                 "service": "interface",
+<<<<<<< Updated upstream
                 "field": "status",
                 "full_path": "namada.operator.Sproutstake.interface.status",
                 "type": "modified",
@@ -78,6 +83,8 @@
             {
                 "team": "Sproutstake",
                 "service": "interface",
+=======
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.Sproutstake.interface.version",
                 "type": "modified",
@@ -92,6 +99,18 @@
                 "type": "modified",
                 "old_value": true,
                 "new_value": false
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+>>>>>>> Stashed changes
             }
         ]
     }
