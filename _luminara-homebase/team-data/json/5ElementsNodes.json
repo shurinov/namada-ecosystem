@@ -760,11 +760,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-19T20:26:15.675121+00:00Z",
+=======
+        "timestamp": "2025-10-19T20:36:16.574511+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "5ElementsNodes",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
                 "type": "modified",
@@ -774,6 +779,8 @@
             {
                 "team": "5ElementsNodes",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
                 "type": "modified",
