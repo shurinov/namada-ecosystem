@@ -10928,5 +10928,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-19T07:35:10.379487+00:00Z",
+        "changes": [
+            {
+                "team": "Palamar",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Palamar",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Palamar.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3967058",
+                "new_value": "3967200"
+            }
+        ]
     }
 ]
