@@ -3344,5 +3344,46 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-20T09:41:08.420300+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.6",
+                "new_value": "n/a"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "3980391",
+                "new_value": "0"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.papadritta.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
