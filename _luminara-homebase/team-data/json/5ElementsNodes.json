@@ -26207,5 +26207,19 @@
                 "new_value": "3984354"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-20T17:39:44.416015+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
