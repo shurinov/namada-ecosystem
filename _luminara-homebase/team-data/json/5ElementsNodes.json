@@ -1,80 +1,6 @@
 [
     {
-        "timestamp": "2025-10-20T17:22:44.683692+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3984139",
-                "new_value": "3984354"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-20T17:37:41.917555+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-20T18:17:29.505419+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-20T18:38:32.362217+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3984354",
-                "new_value": "3985214"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-20T18:48:17.565412+00:00Z",
+        "timestamp": "2025-10-20T21:10:24.684953+00:00Z",
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -83,53 +9,7 @@
                 "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-20T20:13:22.687102+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-20T20:29:27.213259+00:00Z",
-=======
-        "timestamp": "2025-10-20T20:39:50.781565+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3985673",
-                "new_value": "3986259"
-=======
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
->>>>>>> Stashed changes
             }
         ]
     }
