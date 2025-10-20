@@ -1149,7 +1149,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-20T10:28:50.793058+00:00Z",
+=======
+        "timestamp": "2025-10-20T10:42:29.969388+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "EmberStake",
@@ -1159,6 +1163,7 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "EmberStake",
@@ -1168,6 +1173,8 @@
                 "type": "modified",
                 "old_value": "3980454",
                 "new_value": "3981046"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
