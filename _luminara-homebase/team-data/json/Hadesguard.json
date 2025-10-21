@@ -1,295 +1,58 @@
 [
     {
-        "timestamp": "2025-10-21T09:12:55.435142+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-21T09:28:48.845484+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-21T14:24:39.998906+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "3994797",
-                "new_value": "3995349"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-21T14:39:24.307003+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-21T15:25:55.763276+00:00Z",
+        "timestamp": "2025-10-21T16:15:06.596588+00:00Z",
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "indexer",
-                "field": "service",
-                "full_path": "namada.operator.Hadesguard.service.indexer.service",
-                "type": "removed",
-                "old_value": "indexer",
-=======
-        "timestamp": "2025-10-21T15:38:06.148346+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": null,
                 "field": "0",
-                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.0",
-                "type": "removed",
-                "old_value": {
+                "full_path": "namada.operator.Hadesguard.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
                     "service": "indexer",
                     "url": "https://indexer.namada.tududes.com",
                     "status": "up",
                     "version": "3.3.4",
                     "is_up_to_date": true,
-                    "latest_block_height": "3995670",
+                    "latest_block_height": "3996168",
                     "sync_state": "sync_ok"
-                },
->>>>>>> Stashed changes
-                "new_value": null
+                }
             },
             {
                 "team": "Hadesguard",
-<<<<<<< Updated upstream
-                "service": "indexer",
-                "field": "url",
-                "full_path": "namada.operator.Hadesguard.service.indexer.url",
-                "type": "removed",
-                "old_value": "https://indexer.namada.tududes.com",
-=======
-                "service": null,
+                "service": "masp",
                 "field": "1",
-                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.1",
-                "type": "removed",
-                "old_value": {
+                "full_path": "namada.operator.Hadesguard.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
                     "service": "masp",
                     "url": "https://masp.namada.tududes.com",
                     "status": "up",
                     "version": "1.4.6",
                     "is_up_to_date": false,
-                    "latest_block_height": "3995566",
-                    "sync_state": "sync_lag"
-                },
->>>>>>> Stashed changes
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-<<<<<<< Updated upstream
-                "service": "indexer",
-                "field": "status",
-                "full_path": "namada.operator.Hadesguard.service.indexer.status",
-                "type": "removed",
-                "old_value": "up",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "version",
-                "full_path": "namada.operator.Hadesguard.service.indexer.version",
-                "type": "removed",
-                "old_value": "3.3.4",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
-                "type": "removed",
-                "old_value": true,
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
-                "type": "removed",
-                "old_value": "sync_ok",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "service",
-                "full_path": "namada.operator.Hadesguard.service.masp.service",
-                "type": "removed",
-                "old_value": "masp",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "url",
-                "full_path": "namada.operator.Hadesguard.service.masp.url",
-                "type": "removed",
-                "old_value": "https://masp.namada.tududes.com",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "status",
-                "full_path": "namada.operator.Hadesguard.service.masp.status",
-                "type": "removed",
-                "old_value": "up",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "version",
-                "full_path": "namada.operator.Hadesguard.service.masp.version",
-                "type": "removed",
-                "old_value": "1.4.6",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Hadesguard.service.masp.is_up_to_date",
-                "type": "removed",
-                "old_value": false,
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "removed",
-                "old_value": "sync_lag",
-                "new_value": null
+                    "latest_block_height": "3996153",
+                    "sync_state": "sync_ok"
+                }
             },
             {
                 "team": "Hadesguard",
                 "service": "rpc",
-                "field": "service",
-                "full_path": "namada.operator.Hadesguard.service.rpc.service",
-                "type": "removed",
-                "old_value": "rpc",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "url",
-                "full_path": "namada.operator.Hadesguard.service.rpc.url",
-                "type": "removed",
-                "old_value": "https://namada-rpc.hadesguard.tech",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "status",
-                "full_path": "namada.operator.Hadesguard.service.rpc.status",
-                "type": "removed",
-                "old_value": "up",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.Hadesguard.service.rpc.version",
-                "type": "removed",
-                "old_value": "0.37.15",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Hadesguard.service.rpc.is_up_to_date",
-                "type": "removed",
-                "old_value": true,
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "namada_version",
-                "full_path": "namada.operator.Hadesguard.service.rpc.namada_version",
-                "type": "removed",
-                "old_value": "101.1.1",
-                "new_value": null
-            },
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.rpc.sync_state",
-                "type": "removed",
-                "old_value": "sync_ok",
-=======
-                "service": null,
                 "field": "2",
-                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.2",
-                "type": "removed",
-                "old_value": {
+                "full_path": "namada.operator.Hadesguard.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
                     "service": "rpc",
                     "url": "https://namada-rpc.hadesguard.tech",
                     "status": "up",
                     "version": "0.37.15",
                     "is_up_to_date": true,
                     "namada_version": "101.1.1",
-                    "latest_block_height": "3995670",
+                    "latest_block_height": "3996168",
                     "sync_state": "sync_ok"
-                },
->>>>>>> Stashed changes
-                "new_value": null
+                }
             }
         ]
     }
