@@ -65,7 +65,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-21T15:25:55.763276+00:00Z",
+=======
+        "timestamp": "2025-10-21T15:38:06.148346+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "itrocket",
@@ -75,6 +79,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "itrocket",
@@ -84,6 +89,8 @@
                 "type": "modified",
                 "old_value": "3995349",
                 "new_value": "3995711"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
