@@ -239,6 +239,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-23T16:32:49.172231+00:00Z",
         "changes": [
             {
@@ -270,6 +271,12 @@
             },
             {
                 "team": "5ElementsNodes",
+=======
+        "timestamp": "2025-10-23T16:44:18.905866+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+>>>>>>> Stashed changes
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
