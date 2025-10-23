@@ -3408,5 +3408,28 @@
                 "new_value": "1.4.6"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-23T01:14:21.463958+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.service.masp.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.4.6"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.papadritta.service.masp.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            }
+        ]
     }
 ]
