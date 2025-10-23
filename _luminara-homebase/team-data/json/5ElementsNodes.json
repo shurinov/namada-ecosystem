@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-23T07:36:36.453782+00:00Z",
+        "timestamp": "2025-10-23T10:12:53.391146+00:00Z",
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -10,86 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T07:41:36.003431+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "4016231",
-                "new_value": "4016462"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "rpc",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.rpc.latest_block_height",
-                "type": "modified",
-                "old_value": "4016231",
-                "new_value": "4016462"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "rpc",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-23T09:28:44.713435+00:00Z",
-=======
-        "timestamp": "2025-10-23T09:39:18.473400+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "indexer",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "4017026",
-                "new_value": "4017489"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "indexer",
-=======
->>>>>>> Stashed changes
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
             }
         ]
     }
