@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-23T17:10:38.852533+00:00Z",
+        "timestamp": "2025-10-23T21:10:16.704373+00:00Z",
         "changes": [
             {
                 "team": "Grand Valley",
@@ -10,124 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T17:23:18.052678+00:00Z",
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Grand Valley.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4021051",
-                "new_value": "4021178"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T19:09:26.050629+00:00Z",
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T19:20:40.007787+00:00Z",
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Grand Valley.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4021178",
-                "new_value": "4022364"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T19:33:36.685020+00:00Z",
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-23T19:40:43.885644+00:00Z",
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-23T20:27:30.092052+00:00Z",
-=======
-        "timestamp": "2025-10-23T20:37:53.453401+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "Grand Valley",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Grand Valley.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4022364",
-                "new_value": "4023089"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
