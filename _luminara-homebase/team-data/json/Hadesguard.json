@@ -148,11 +148,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-24T04:29:54.515732+00:00Z",
+=======
+        "timestamp": "2025-10-24T04:40:01.172197+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "rpc",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Hadesguard.service.rpc.latest_block_height",
                 "type": "modified",
@@ -162,6 +167,8 @@
             {
                 "team": "Hadesguard",
                 "service": "rpc",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.rpc.sync_state",
                 "type": "modified",
