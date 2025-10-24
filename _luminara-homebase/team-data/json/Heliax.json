@@ -15310,5 +15310,37 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-24T16:19:40.368584+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.indexer.url",
+                "type": "modified",
+                "old_value": "https://rpc.mainnet.click",
+                "new_value": "https://rpc.mainnet.siuuu.click"
+            },
+            {
+                "team": "Heliax",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.interface.version",
+                "type": "modified",
+                "old_value": "1.32.0",
+                "new_value": "1.32.1"
+            }
+        ]
     }
 ]
