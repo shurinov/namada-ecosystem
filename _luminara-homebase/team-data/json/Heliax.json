@@ -118,5 +118,19 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-24T16:32:32.886276+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.indexer.url",
+                "type": "modified",
+                "old_value": "https://rpc.mainnet.click",
+                "new_value": "https://rpc.mainnet.siuuu.click"
+            }
+        ]
     }
 ]
