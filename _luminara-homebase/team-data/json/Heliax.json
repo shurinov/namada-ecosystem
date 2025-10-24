@@ -49,5 +49,37 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-24T15:27:36.017109+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.interface.version",
+                "type": "modified",
+                "old_value": "1.32.0",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Heliax.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4032190",
+                "new_value": "4032786"
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
