@@ -15527,5 +15527,46 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-24T20:40:57.198042+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.indexer.url",
+                "type": "modified",
+                "old_value": "https://rpc.mainnet.siuuu.click",
+                "new_value": "https://indexer.mainnet.siuuu.click"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.indexer.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
