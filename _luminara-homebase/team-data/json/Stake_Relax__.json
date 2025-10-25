@@ -6854,7 +6854,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-25T08:30:03.393494+00:00Z",
+=======
+        "timestamp": "2025-10-25T08:39:40.459044+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Stake&Relax \ud83e\udda5",
@@ -6868,6 +6872,7 @@
             {
                 "team": "Stake&Relax \ud83e\udda5",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "sync_state",
                 "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.sync_state",
                 "type": "modified",
@@ -6882,6 +6887,13 @@
                 "type": "modified",
                 "old_value": "4041031",
                 "new_value": "0"
+=======
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "n/a"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Stake&Relax \ud83e\udda5",
@@ -6895,11 +6907,19 @@
             {
                 "team": "Stake&Relax \ud83e\udda5",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "version",
                 "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.version",
                 "type": "modified",
                 "old_value": "3.3.4",
                 "new_value": "n/a"
+=======
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
