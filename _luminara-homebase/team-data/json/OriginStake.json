@@ -16900,5 +16900,19 @@
                 "new_value": "down"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-25T05:17:33.446370+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
