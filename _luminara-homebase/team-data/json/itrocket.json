@@ -135,5 +135,19 @@
                 "new_value": "1.4.7"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-25T05:11:05.934575+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
