@@ -1,170 +1,33 @@
 [
     {
-        "timestamp": "2025-10-24T19:09:19.327796+00:00Z",
+        "timestamp": "2025-10-25T01:55:57.483141+00:00Z",
         "changes": [
             {
                 "team": "deNodes",
                 "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.service.masp.version",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T19:20:33.527320+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
+                "old_value": "1.4.6",
+                "new_value": "1.4.7"
             },
             {
                 "team": "deNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.interface.version",
                 "type": "modified",
-                "old_value": "4034341",
-                "new_value": "4034642"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T19:33:29.546805+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T19:40:46.688880+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4034642",
-                "new_value": "4034783"
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
             },
             {
                 "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.deNodes.interface.is_up_to_date",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T21:10:06.069445+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T21:22:06.276239+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T21:33:48.622524+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-24T21:40:34.423189+00:00Z",
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4035402",
-                "new_value": "4035859"
-            },
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-24T22:38:15.995772+00:00Z",
-=======
-        "timestamp": "2025-10-24T22:24:45.153245+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-<<<<<<< Updated upstream
-=======
-            },
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4035859",
-                "new_value": "4036278"
->>>>>>> Stashed changes
+                "old_value": true,
+                "new_value": false
             }
         ]
     }
