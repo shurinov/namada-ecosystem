@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-25T08:30:03.393494+00:00Z",
-=======
-        "timestamp": "2025-10-25T08:39:40.459044+00:00Z",
->>>>>>> Stashed changes
+        "timestamp": "2025-10-25T09:10:55.514150+00:00Z",
         "changes": [
             {
                 "team": "CroutonDigital",
@@ -12,20 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.CroutonDigital.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4039012",
-                "new_value": "4041493"
-=======
->>>>>>> Stashed changes
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
             }
         ]
     }

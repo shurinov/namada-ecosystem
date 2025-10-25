@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-25T03:47:08.186669+00:00Z",
+        "timestamp": "2025-10-25T09:10:55.514150+00:00Z",
         "changes": [
             {
                 "team": "MekongLabs",
@@ -8,61 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
+                "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-25T03:50:35.931122+00:00Z",
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4038744",
-                "new_value": "4039012"
-            },
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-25T08:30:03.393494+00:00Z",
-=======
-        "timestamp": "2025-10-25T08:39:40.459044+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4039012",
-                "new_value": "4041493"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
