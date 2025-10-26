@@ -299,5 +299,19 @@
                 "new_value": "4053827"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T08:39:54.219292+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
