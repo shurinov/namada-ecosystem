@@ -16974,5 +16974,19 @@
                 "new_value": "4040544"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T18:45:55.093869+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]

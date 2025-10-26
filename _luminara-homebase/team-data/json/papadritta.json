@@ -4007,5 +4007,46 @@
                 "new_value": "4058543"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T18:45:55.093869+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "papadritta",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
