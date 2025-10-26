@@ -3789,5 +3789,19 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T06:46:16.448309+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
