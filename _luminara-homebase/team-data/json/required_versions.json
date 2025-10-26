@@ -1466,5 +1466,73 @@
                 "new_value": "1.4.7"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T18:44:41.875699+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "interface",
+                "full_path": "housefire_required_versions.interface",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "indexer",
+                "full_path": "housefire_required_versions.indexer",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "masp",
+                "full_path": "housefire_required_versions.masp",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": null,
+                "service": "interface",
+                "field": "interface",
+                "full_path": "required_versions.interface",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": null,
+                "service": "indexer",
+                "field": "indexer",
+                "full_path": "required_versions.indexer",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": null,
+                "service": "masp",
+                "field": "masp",
+                "full_path": "required_versions.masp",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "3248188",
+                "new_value": "3248475"
+            }
+        ]
     }
 ]
