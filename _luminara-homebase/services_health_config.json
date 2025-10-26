@@ -1,7 +1,7 @@
 {
   "namada": {
     "interface": {
-      "required_version": "1.31.4"
+      "required_version": "1.32.1"
     },
     "services": {
       "rpc": {
@@ -12,14 +12,14 @@
         }
       },
       "indexer": {
-        "required_version": "3.3.4",
+        "required_version": "4.1.0",
         "block_lag_thresholds": {
           "healthy": 50,
           "max": 150
         }
       },
       "masp": {
-        "required_version": "1.4.4",
+        "required_version": "1.4.7",
         "block_lag_thresholds": {
           "healthy": 50,
           "max": 150
@@ -29,7 +29,7 @@
   },
   "housefire": {
     "interface": {
-      "required_version": "1.31.4"
+      "required_version": "1.32.1"
     },
     "services": {
       "rpc": {
@@ -40,14 +40,14 @@
         }
       },
       "indexer": {
-        "required_version": "3.3.4",
+        "required_version": "4.1.0",
         "block_lag_thresholds": {
           "healthy": 50,
           "max": 150
         }
       },
       "masp": {
-        "required_version": "1.3.0",
+        "required_version": "1.4.7",
         "block_lag_thresholds": {
           "healthy": 50,
           "max": 150
