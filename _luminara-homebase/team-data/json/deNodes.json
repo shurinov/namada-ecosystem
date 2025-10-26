@@ -33710,5 +33710,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T19:36:14.423499+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.deNodes.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
