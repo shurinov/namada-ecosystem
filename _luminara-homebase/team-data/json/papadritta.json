@@ -3578,5 +3578,28 @@
                 "new_value": "4045882"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-26T03:51:59.074936+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
