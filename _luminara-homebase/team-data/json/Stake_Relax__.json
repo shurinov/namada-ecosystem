@@ -6770,5 +6770,80 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-27T03:19:23.524291+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.networks.0.interface.10.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.stakeandrelax.net:443",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": false,
+                    "latest_block_height": "4062390",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.networks.0.interface.10.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp.stakeandrelax.net:443",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": false,
+                    "latest_block_height": "3765769",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.networks.0.interface.10.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.stakeandrelax.net:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4062390",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
