@@ -16858,5 +16858,28 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-27T18:28:34.007740+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.TuDudes.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
