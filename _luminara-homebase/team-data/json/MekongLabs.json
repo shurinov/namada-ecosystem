@@ -19089,5 +19089,28 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-27T19:12:29.073533+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
