@@ -1,28 +1,24 @@
 [
     {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-27T16:34:20.294368+00:00Z",
-=======
-        "timestamp": "2025-10-27T16:45:52.574270+00:00Z",
->>>>>>> Stashed changes
+        "timestamp": "2025-10-27T18:37:07.198878+00:00Z",
         "changes": [
             {
                 "team": "Hadesguard",
-                "service": "masp",
-                "field": "status",
-                "full_path": "namada.operator.Hadesguard.service.masp.status",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.indexer.version",
                 "type": "modified",
-                "old_value": "down",
-                "new_value": "up"
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
             },
             {
                 "team": "Hadesguard",
-                "service": "masp",
-                "field": "version",
-                "full_path": "namada.operator.Hadesguard.service.masp.version",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
                 "type": "modified",
-                "old_value": "n/a",
-                "new_value": "1.4.7"
+                "old_value": true,
+                "new_value": false
             }
         ]
     }
