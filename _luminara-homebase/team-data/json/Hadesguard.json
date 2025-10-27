@@ -750,11 +750,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-27T14:27:44.394431+00:00Z",
+=======
+        "timestamp": "2025-10-27T14:40:35.794940+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
                 "type": "modified",
@@ -764,6 +769,8 @@
             {
                 "team": "Hadesguard",
                 "service": "indexer",
+=======
+>>>>>>> Stashed changes
                 "field": "status",
                 "full_path": "namada.operator.Hadesguard.service.indexer.status",
                 "type": "modified",
@@ -778,6 +785,18 @@
                 "type": "modified",
                 "old_value": "n/a",
                 "new_value": "3.3.4"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+>>>>>>> Stashed changes
             }
         ]
     }
