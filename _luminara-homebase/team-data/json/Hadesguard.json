@@ -15051,5 +15051,28 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-27T18:48:08.467458+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            }
+        ]
     }
 ]
