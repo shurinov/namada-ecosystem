@@ -16539,5 +16539,89 @@
                 "new_value": "down"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-27T16:25:32.319549+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.TuDudes.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.TuDudes.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.TuDudes.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": false,
+                    "latest_block_height": "4016726",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.TuDudes.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "2384903",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.TuDudes.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://rpc.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4019926",
+                    "sync_state": "sync_nok"
+                }
+            }
+        ]
     }
 ]
