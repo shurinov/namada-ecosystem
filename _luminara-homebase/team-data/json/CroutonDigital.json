@@ -921,5 +921,46 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-28T08:35:15.166990+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.CroutonDigital.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.CroutonDigital.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.CroutonDigital.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.CroutonDigital.interface.version",
+                "type": "modified",
+                "old_value": "1.31.2",
+                "new_value": "1.32.1"
+            }
+        ]
     }
 ]
