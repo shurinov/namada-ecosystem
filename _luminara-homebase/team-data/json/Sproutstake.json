@@ -8126,5 +8126,28 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-28T07:15:56.904289+00:00Z",
+        "changes": [
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
