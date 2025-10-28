@@ -81,5 +81,28 @@
                 "new_value": "4080416"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-28T13:36:21.398570+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4080416",
+                "new_value": "4080907"
+            }
+        ]
     }
 ]
