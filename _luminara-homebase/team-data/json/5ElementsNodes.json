@@ -1,31 +1,24 @@
 [
     {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-29T17:39:45.473521+00:00Z",
-=======
-        "timestamp": "2025-10-29T17:25:09.353907+00:00Z",
->>>>>>> Stashed changes
+        "timestamp": "2025-10-29T18:37:40.728453+00:00Z",
         "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-=======
-            },
             {
                 "team": "5ElementsNodes",
                 "service": "masp",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "4093571",
-                "new_value": "4094949"
->>>>>>> Stashed changes
+                "old_value": "4094949",
+                "new_value": "4095228"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
             }
         ]
     }
