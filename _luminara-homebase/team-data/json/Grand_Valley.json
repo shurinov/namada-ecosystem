@@ -118,5 +118,19 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-29T20:40:13.130765+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.6",
+                "new_value": "1.4.7"
+            }
+        ]
     }
 ]
