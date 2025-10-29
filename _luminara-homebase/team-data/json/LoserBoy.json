@@ -1937,5 +1937,19 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-29T00:57:17.732238+00:00Z",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
