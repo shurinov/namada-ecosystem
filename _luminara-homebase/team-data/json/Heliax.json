@@ -1406,11 +1406,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-29T08:35:47.851521+00:00Z",
+=======
+        "timestamp": "2025-10-29T08:45:43.654088+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Heliax",
                 "service": "rpc",
+<<<<<<< Updated upstream
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
                 "type": "modified",
@@ -1420,11 +1425,25 @@
             {
                 "team": "Heliax",
                 "service": "rpc",
+=======
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.Heliax.service.rpc.version",
                 "type": "modified",
                 "old_value": "0.37.15",
                 "new_value": "0.37.16"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+>>>>>>> Stashed changes
             }
         ]
     }
