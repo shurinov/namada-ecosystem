@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-10-30T07:11:41.690721+00:00Z",
+        "timestamp": "2025-10-30T10:12:44.946023+00:00Z",
         "changes": [
             {
                 "team": "Heliax",
@@ -8,142 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_nok",
+                "old_value": "sync_ok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-30T07:35:22.201473+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Heliax.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-30T08:16:04.475367+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.Heliax.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.15",
-                "new_value": "0.37.16"
-            },
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-30T08:33:53.840254+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.Heliax.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.15",
-                "new_value": "0.37.16"
-            },
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-10-30T09:13:25.001164+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.Heliax.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.16",
-                "new_value": "0.37.15"
-            },
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": false,
-                "new_value": true
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-10-30T09:28:31.228578+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "version",
-                "full_path": "namada.operator.Heliax.service.rpc.version",
-                "type": "modified",
-                "old_value": "0.37.16",
-                "new_value": "0.37.15"
-            },
-            {
-                "team": "Heliax",
-                "service": "rpc",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
-                "type": "modified",
-                "old_value": false,
-                "new_value": true
-            },
-            {
-                "team": "Heliax",
-=======
-        "timestamp": "2025-10-30T09:39:03.853674+00:00Z",
-        "changes": [
-            {
-                "team": "Heliax",
->>>>>>> Stashed changes
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Heliax.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "Heliax",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Heliax.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4102615",
-                "new_value": "4103288"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
