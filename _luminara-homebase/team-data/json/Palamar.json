@@ -269,7 +269,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-31T22:24:51.824054+00:00Z",
+=======
+        "timestamp": "2025-10-31T22:38:20.079945+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Palamar",
@@ -279,6 +283,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Palamar",
@@ -288,6 +293,8 @@
                 "type": "modified",
                 "old_value": "4121606",
                 "new_value": "4121908"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
