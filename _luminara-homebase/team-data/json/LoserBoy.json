@@ -357,7 +357,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-10-31T13:44:16.260495+00:00Z",
+=======
+        "timestamp": "2025-10-31T13:35:07.527978+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "LoserBoy",
@@ -367,6 +371,18 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.LoserBoy.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4116945",
+                "new_value": "4117626"
+>>>>>>> Stashed changes
             }
         ]
     }
