@@ -22209,5 +22209,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-01T10:14:58.601934+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4126663",
+                "new_value": "4128027"
+            }
+        ]
     }
 ]
