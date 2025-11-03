@@ -61325,5 +61325,46 @@
                 "new_value": "4152646"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-03T11:14:04.021623+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4152646",
+                "new_value": "4153161"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4152558",
+                "new_value": "4152799"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
