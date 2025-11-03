@@ -9680,5 +9680,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-03T21:35:21.676717+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
