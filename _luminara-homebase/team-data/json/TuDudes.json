@@ -21157,5 +21157,64 @@
                 "new_value": "4151198"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-03T07:38:27.180703+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4151198",
+                "new_value": "4151389"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4151198",
+                "new_value": "4151388"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4149528",
+                "new_value": "4151313"
+            }
+        ]
     }
 ]
