@@ -24187,5 +24187,28 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-04T03:30:58.181765+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "1.32.1"
+            }
+        ]
     }
 ]
