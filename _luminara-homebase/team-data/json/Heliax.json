@@ -51,6 +51,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-05T09:41:09.326049+00:00Z",
         "changes": [
             {
@@ -64,6 +65,12 @@
             },
             {
                 "team": "Heliax",
+=======
+        "timestamp": "2025-11-05T09:29:40.784951+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+>>>>>>> Stashed changes
                 "service": "rpc",
                 "field": "version",
                 "full_path": "namada.operator.Heliax.service.rpc.version",
