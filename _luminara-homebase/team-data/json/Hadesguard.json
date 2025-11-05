@@ -357,11 +357,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-05T16:47:29.051211+00:00Z",
+=======
+        "timestamp": "2025-11-05T16:35:33.211538+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "interface",
+<<<<<<< Updated upstream
                 "field": "status",
                 "full_path": "namada.operator.Hadesguard.interface.status",
                 "type": "modified",
@@ -371,6 +376,8 @@
             {
                 "team": "Hadesguard",
                 "service": "interface",
+=======
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.Hadesguard.interface.version",
                 "type": "modified",
@@ -379,6 +386,18 @@
             },
             {
                 "team": "Hadesguard",
+<<<<<<< Updated upstream
+=======
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Hadesguard",
+>>>>>>> Stashed changes
                 "service": "indexer",
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
@@ -388,12 +407,21 @@
             },
             {
                 "team": "Hadesguard",
+<<<<<<< Updated upstream
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4180011",
+                "new_value": "4180555"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Hadesguard",
@@ -403,6 +431,18 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4180011",
+                "new_value": "4180556"
+>>>>>>> Stashed changes
             }
         ]
     }
