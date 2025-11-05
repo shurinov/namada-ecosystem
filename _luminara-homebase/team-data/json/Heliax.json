@@ -315,5 +315,28 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-05T02:03:57.222635+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.16",
+                "new_value": "0.37.15"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
