@@ -30,5 +30,37 @@
                 "new_value": "https://rpc-namada.5elementsnodes.com"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-05T18:37:17.871947+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.url",
+                "type": "modified",
+                "old_value": "https://masp2-namada.5elementsnodes.com/",
+                "new_value": "https://masp2-namada.5elementsnodes.com"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.url",
+                "type": "modified",
+                "old_value": "https://rpc-namada.5elementsnodes.com/",
+                "new_value": "https://rpc-namada.5elementsnodes.com"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.url",
+                "type": "modified",
+                "old_value": "https://index2-namada.5elementsnodes.com/",
+                "new_value": "https://index2-namada.5elementsnodes.com"
+            }
+        ]
     }
 ]
