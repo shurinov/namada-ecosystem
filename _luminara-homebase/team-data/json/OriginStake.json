@@ -276,5 +276,28 @@
                 "new_value": "4178443"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-05T13:38:10.635963+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "0.37.16"
+            },
+            {
+                "team": "OriginStake",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
