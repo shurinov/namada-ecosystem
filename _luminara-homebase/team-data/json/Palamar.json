@@ -371,11 +371,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-05T17:25:48.003419+00:00Z",
+=======
+        "timestamp": "2025-11-05T17:38:42.901020+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Palamar",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Palamar.service.masp.latest_block_height",
                 "type": "modified",
@@ -385,6 +390,8 @@
             {
                 "team": "Palamar",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Palamar.service.masp.sync_state",
                 "type": "modified",

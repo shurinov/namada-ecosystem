@@ -417,11 +417,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-05T17:25:48.003419+00:00Z",
+=======
+        "timestamp": "2025-11-05T17:38:42.901020+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "OriginStake",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
                 "type": "modified",
@@ -431,6 +436,8 @@
             {
                 "team": "OriginStake",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.OriginStake.service.masp.sync_state",
                 "type": "modified",
