@@ -21,5 +21,91 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-05T17:25:48.003419+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4180554",
+                "new_value": "4181018"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.url",
+                "type": "modified",
+                "old_value": "https://index2-namada.5elementsnodes.com",
+                "new_value": "https://index2-namada.5elementsnodes.com/"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4180522",
+                "new_value": "4180756"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.url",
+                "type": "modified",
+                "old_value": "https://masp2-namada.5elementsnodes.com",
+                "new_value": "https://masp2-namada.5elementsnodes.com/"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4180554",
+                "new_value": "4181018"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.url",
+                "type": "modified",
+                "old_value": "https://rpc-namada.5elementsnodes.com",
+                "new_value": "https://rpc-namada.5elementsnodes.com/"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
