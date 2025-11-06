@@ -88,6 +88,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-06T22:25:18.283945+00:00Z",
         "changes": [
             {
@@ -116,6 +117,18 @@
                 "type": "modified",
                 "old_value": "n/a",
                 "new_value": "101.1.1"
+=======
+        "timestamp": "2025-11-06T22:39:16.198355+00:00Z",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.LoserBoy.service.rpc.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+>>>>>>> Stashed changes
             },
             {
                 "team": "LoserBoy",
@@ -129,11 +142,19 @@
             {
                 "team": "LoserBoy",
                 "service": "rpc",
+<<<<<<< Updated upstream
                 "field": "status",
                 "full_path": "namada.operator.LoserBoy.service.rpc.status",
                 "type": "modified",
                 "old_value": "down",
                 "new_value": "up"
+=======
+                "field": "namada_version",
+                "full_path": "namada.operator.LoserBoy.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "101.1.1"
+>>>>>>> Stashed changes
             }
         ]
     }
