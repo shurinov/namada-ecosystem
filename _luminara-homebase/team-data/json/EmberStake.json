@@ -607,11 +607,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-06T20:29:42.244209+00:00Z",
+=======
+        "timestamp": "2025-11-06T20:40:06.897095+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "EmberStake",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.EmberStake.service.masp.latest_block_height",
                 "type": "modified",
@@ -621,6 +626,8 @@
             {
                 "team": "EmberStake",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.EmberStake.service.masp.sync_state",
                 "type": "modified",
