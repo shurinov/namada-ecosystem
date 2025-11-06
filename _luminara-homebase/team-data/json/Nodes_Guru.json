@@ -208,6 +208,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-06T08:35:38.169666+00:00Z",
         "changes": [
             {
@@ -227,6 +228,18 @@
                 "type": "modified",
                 "old_value": "0.37.15",
                 "new_value": "0.37.16"
+=======
+        "timestamp": "2025-11-06T08:45:59.943690+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }
