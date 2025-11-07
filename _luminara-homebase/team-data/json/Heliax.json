@@ -433,7 +433,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-07T22:24:25.995754+00:00Z",
+=======
+        "timestamp": "2025-11-07T22:37:48.754812+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Heliax",
@@ -452,6 +456,7 @@
                 "type": "modified",
                 "old_value": false,
                 "new_value": true
+<<<<<<< Updated upstream
             },
             {
                 "team": "Heliax",
@@ -470,6 +475,8 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
