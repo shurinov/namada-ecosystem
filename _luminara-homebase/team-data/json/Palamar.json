@@ -149,5 +149,46 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-07T20:29:14.549951+00:00Z",
+        "changes": [
+            {
+                "team": "Palamar",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Palamar",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Palamar.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4206673",
+                "new_value": "4207215"
+            },
+            {
+                "team": "Palamar",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Palamar.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Palamar",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Palamar.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4206673",
+                "new_value": "4207215"
+            }
+        ]
     }
 ]

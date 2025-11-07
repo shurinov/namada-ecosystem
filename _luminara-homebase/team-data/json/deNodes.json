@@ -797,5 +797,46 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-07T20:29:14.549951+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.deNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4206671",
+                "new_value": "4207212"
+            },
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.deNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4206670",
+                "new_value": "4207212"
+            }
+        ]
     }
 ]
