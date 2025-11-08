@@ -14,7 +14,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-08T06:35:05.001295+00:00Z",
+=======
+        "timestamp": "2025-11-08T06:44:17.454445+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "EmberStake",
@@ -22,6 +26,7 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.EmberStake.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_ok",
                 "new_value": "sync_nok"
             },
@@ -33,6 +38,10 @@
                 "type": "modified",
                 "old_value": "4211824",
                 "new_value": "4212257"
+=======
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
