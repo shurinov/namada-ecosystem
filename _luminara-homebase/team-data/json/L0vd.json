@@ -5230,5 +5230,89 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-09T18:42:01.460704+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.L0vd.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "L0vd",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.L0vd.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.32.1"
+            },
+            {
+                "team": "L0vd",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.L0vd.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "L0vd",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.L0vd.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.rpc.l0vd.com:443",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4231042",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.L0vd.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-mainnet-masp-indexer.rpc.l0vd.com:443",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4230979",
+                    "sync_state": "sync_lag"
+                }
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.L0vd.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet.rpc.l0vd.com/",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4231042",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
