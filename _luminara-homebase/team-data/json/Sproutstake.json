@@ -8786,5 +8786,80 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-09T23:10:02.580364+00:00Z",
+        "changes": [
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.Sproutstake.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-api.sproutstake.space",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": false,
+                    "latest_block_height": "3738134",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.Sproutstake.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp-api.sproutstake.space",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "latest_block_height": "0",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.Sproutstake.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.sproutstake.space",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "namada_version": "n/a",
+                    "latest_block_height": "0",
+                    "sync_state": "sync_nok"
+                }
+            }
+        ]
     }
 ]
