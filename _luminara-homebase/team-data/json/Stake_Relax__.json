@@ -318,5 +318,55 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-10T09:14:59.830859+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.3.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.3.0"
+            }
+        ]
     }
 ]
