@@ -111,11 +111,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-10T13:37:02.919228+00:00Z",
+=======
+        "timestamp": "2025-11-10T13:45:54.499201+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.shield-crypto.service.masp.latest_block_height",
                 "type": "modified",
@@ -125,6 +130,8 @@
             {
                 "team": "shield-crypto",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
                 "type": "modified",
