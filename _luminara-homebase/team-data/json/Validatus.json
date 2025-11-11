@@ -7231,11 +7231,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-11T20:28:58.206803+00:00Z",
+=======
+        "timestamp": "2025-11-11T20:38:52.697999+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Validatus",
                 "service": "interface",
+<<<<<<< Updated upstream
                 "field": "version",
                 "full_path": "namada.operator.Validatus.interface.version",
                 "type": "modified",
@@ -7245,6 +7250,8 @@
             {
                 "team": "Validatus",
                 "service": "interface",
+=======
+>>>>>>> Stashed changes
                 "field": "status",
                 "full_path": "namada.operator.Validatus.interface.status",
                 "type": "modified",
@@ -7253,6 +7260,7 @@
             },
             {
                 "team": "Validatus",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "service",
                 "full_path": "namada.operator.Validatus.service.indexer.service",
@@ -7285,19 +7293,60 @@
                 "full_path": "namada.operator.Validatus.service.indexer.version",
                 "type": "removed",
                 "old_value": "3.3.4",
+=======
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Validatus.interface.version",
+                "type": "modified",
+                "old_value": "1.31.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Validatus",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Validatus.networks.0.interface.16.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.validatus.com:443",
+                    "status": "up",
+                    "version": "3.3.4",
+                    "is_up_to_date": false,
+                    "latest_block_height": "4256320",
+                    "sync_state": "sync_ok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "Validatus",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.Validatus.service.indexer.is_up_to_date",
                 "type": "removed",
                 "old_value": false,
+=======
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Validatus.networks.0.interface.16.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://masp.namada.validatus.com:443",
+                    "status": "up",
+                    "version": "1.3.0",
+                    "is_up_to_date": false,
+                    "latest_block_height": "3819812",
+                    "sync_state": "sync_nok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "Validatus",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "sync_state",
                 "full_path": "namada.operator.Validatus.service.indexer.sync_state",
@@ -7420,6 +7469,22 @@
                 "full_path": "namada.operator.Validatus.service.rpc.sync_state",
                 "type": "removed",
                 "old_value": "sync_ok",
+=======
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Validatus.networks.0.interface.16.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://rpc.namada.validatus.com:443",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4256320",
+                    "sync_state": "sync_ok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             }
         ]
