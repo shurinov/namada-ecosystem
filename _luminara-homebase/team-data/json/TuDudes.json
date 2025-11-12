@@ -1,68 +1,24 @@
 [
     {
-        "timestamp": "2025-11-12T15:13:25.737066+00:00Z",
+        "timestamp": "2025-11-12T18:35:44.800988+00:00Z",
         "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-12T15:49:57.962962+00:00Z",
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
             {
                 "team": "TuDudes",
                 "service": "masp",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "4266540",
-                "new_value": "4266676"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-12T17:25:53.512337+00:00Z",
-=======
-        "timestamp": "2025-11-12T17:39:08.982708+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
+                "old_value": "4267362",
+                "new_value": "4268071"
+            },
             {
                 "team": "TuDudes",
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.TuDudes.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4267077",
-                "new_value": "4267362"
-=======
->>>>>>> Stashed changes
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
             }
         ]
     }
