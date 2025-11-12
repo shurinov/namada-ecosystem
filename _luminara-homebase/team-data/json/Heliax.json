@@ -488,11 +488,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-12T05:27:18.530318+00:00Z",
+=======
+        "timestamp": "2025-11-12T05:40:20.611308+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Heliax",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Heliax.service.indexer.latest_block_height",
                 "type": "modified",
@@ -502,6 +507,8 @@
             {
                 "team": "Heliax",
                 "service": "indexer",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.indexer.sync_state",
                 "type": "modified",
@@ -510,12 +517,21 @@
             },
             {
                 "team": "Heliax",
+<<<<<<< Updated upstream
                 "service": "rpc",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Heliax.service.rpc.latest_block_height",
                 "type": "modified",
                 "old_value": "4260844",
                 "new_value": "4261339"
+=======
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Heliax",
