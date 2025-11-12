@@ -102,11 +102,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-12T20:30:14.537418+00:00Z",
+=======
+        "timestamp": "2025-11-12T20:40:22.361932+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "L0vd",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.L0vd.service.masp.latest_block_height",
                 "type": "modified",
@@ -116,6 +121,8 @@
             {
                 "team": "L0vd",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.L0vd.service.masp.sync_state",
                 "type": "modified",
