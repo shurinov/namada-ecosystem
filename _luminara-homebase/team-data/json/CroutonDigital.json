@@ -241,6 +241,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-13T10:30:34.065466+00:00Z",
         "changes": [
             {
@@ -251,6 +252,18 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_nok"
+=======
+        "timestamp": "2025-11-13T10:43:47.421869+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             },
             {
                 "team": "CroutonDigital",
@@ -264,6 +277,7 @@
             {
                 "team": "CroutonDigital",
                 "service": "rpc",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.CroutonDigital.service.rpc.latest_block_height",
                 "type": "modified",
@@ -273,6 +287,8 @@
             {
                 "team": "CroutonDigital",
                 "service": "rpc",
+=======
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.CroutonDigital.service.rpc.version",
                 "type": "modified",
@@ -287,6 +303,18 @@
                 "type": "modified",
                 "old_value": "101.1.1",
                 "new_value": "n/a"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
