@@ -334,7 +334,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-13T13:38:48.014511+00:00Z",
+=======
+        "timestamp": "2025-11-13T13:48:08.810589+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "MekongLabs",
@@ -344,6 +348,7 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "MekongLabs",
@@ -353,6 +358,8 @@
                 "type": "modified",
                 "old_value": "4277630",
                 "new_value": "4278069"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
