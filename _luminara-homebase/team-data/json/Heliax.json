@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-11-14T09:13:11.604982+00:00Z",
+        "timestamp": "2025-11-14T10:13:48.450054+00:00Z",
         "changes": [
             {
                 "team": "Heliax",
@@ -9,46 +9,25 @@
                 "full_path": "namada.operator.Heliax.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-14T09:39:39.824913+00:00Z",
-=======
-        "timestamp": "2025-11-14T09:28:36.814047+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "interface",
-                "field": "version",
-                "full_path": "namada.operator.Heliax.interface.version",
-                "type": "modified",
-                "old_value": "1.32.1",
-                "new_value": "1.32.1-maint.1"
+                "new_value": "sync_nok"
             },
             {
                 "team": "Heliax",
-                "service": "interface",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "0.37.16"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
                 "field": "is_up_to_date",
-                "full_path": "namada.operator.Heliax.interface.is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
                 "type": "modified",
                 "old_value": true,
                 "new_value": false
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "Heliax",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Heliax.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
