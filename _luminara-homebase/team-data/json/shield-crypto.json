@@ -153,6 +153,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-14T13:34:49.947179+00:00Z",
         "changes": [
             {
@@ -163,6 +164,18 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+=======
+        "timestamp": "2025-11-14T13:44:00.316280+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1",
+                "new_value": "1.32.1-maint.1"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -175,12 +188,21 @@
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "interface",
                 "field": "version",
                 "full_path": "namada.operator.shield-crypto.interface.version",
                 "type": "modified",
                 "old_value": "1.32.1",
                 "new_value": "1.32.1-maint.1"
+=======
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
