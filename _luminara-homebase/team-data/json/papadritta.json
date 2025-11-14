@@ -1,57 +1,6 @@
 [
     {
-        "timestamp": "2025-11-14T14:11:50.661093+00:00Z",
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T14:27:17.351014+00:00Z",
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4289870",
-                "new_value": "4290747"
-            },
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T14:39:42.849893+00:00Z",
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T15:24:33.837658+00:00Z",
+        "timestamp": "2025-11-14T17:10:41.545715+00:00Z",
         "changes": [
             {
                 "team": "papadritta",
@@ -60,76 +9,7 @@
                 "full_path": "namada.operator.papadritta.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4290747",
-                "new_value": "4291391"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T15:37:34.445785+00:00Z",
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T16:14:46.318720+00:00Z",
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-14T16:34:46.196508+00:00Z",
-=======
-        "timestamp": "2025-11-14T16:46:11.637852+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4291391",
-                "new_value": "4291840"
-=======
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
->>>>>>> Stashed changes
             }
         ]
     }
