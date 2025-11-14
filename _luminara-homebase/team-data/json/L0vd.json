@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-11-14T07:12:09.100673+00:00Z",
+        "timestamp": "2025-11-14T09:13:11.604982+00:00Z",
         "changes": [
             {
                 "team": "L0vd",
@@ -10,75 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T07:25:30.138050+00:00Z",
-        "changes": [
-            {
-                "team": "L0vd",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.L0vd.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "L0vd",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.L0vd.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4286734",
-                "new_value": "4287251"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T08:16:22.055227+00:00Z",
-        "changes": [
-            {
-                "team": "L0vd",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.L0vd.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-14T08:34:53.781150+00:00Z",
-=======
-        "timestamp": "2025-11-14T08:44:58.611169+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "L0vd",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.L0vd.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "L0vd",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.L0vd.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4287251",
-                "new_value": "4287767"
-=======
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
->>>>>>> Stashed changes
             }
         ]
     }
