@@ -1,48 +1,6 @@
 [
     {
-        "timestamp": "2025-11-14T09:13:11.604982+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T09:39:39.824913+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T10:13:48.450054+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T10:29:29.386638+00:00Z",
+        "timestamp": "2025-11-14T14:27:17.351014+00:00Z",
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -50,40 +8,8 @@
                 "field": "latest_block_height",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "4288234",
-                "new_value": "4288379"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T11:10:21.019864+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "interface",
-                "field": "version",
-                "full_path": "namada.operator.5ElementsNodes.interface.version",
-                "type": "modified",
-                "old_value": "1.32.1",
-                "new_value": "1.32.1-maint.1"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "interface",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.5ElementsNodes.interface.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
+                "old_value": "4289870",
+                "new_value": "4290747"
             },
             {
                 "team": "5ElementsNodes",
@@ -93,130 +19,6 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T11:22:38.843074+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4288379",
-                "new_value": "4289304"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "interface",
-                "field": "version",
-                "full_path": "namada.operator.5ElementsNodes.interface.version",
-                "type": "modified",
-                "old_value": "1.32.1",
-                "new_value": "1.32.1-maint.1"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "interface",
-                "field": "is_up_to_date",
-                "full_path": "namada.operator.5ElementsNodes.interface.is_up_to_date",
-                "type": "modified",
-                "old_value": true,
-                "new_value": false
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T11:34:39.799731+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T12:23:32.130409+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T12:54:38.580090+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4289304",
-                "new_value": "4289870"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-14T13:04:21.277020+00:00Z",
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-14T13:34:49.947179+00:00Z",
-=======
-        "timestamp": "2025-11-14T13:44:00.316280+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "5ElementsNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
             }
         ]
     }
