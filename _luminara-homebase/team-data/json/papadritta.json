@@ -620,5 +620,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-16T04:31:39.473380+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1",
+                "new_value": "1.32.1-maint.1"
+            },
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.papadritta.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
