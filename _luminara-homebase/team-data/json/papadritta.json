@@ -622,7 +622,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-16T04:31:39.473380+00:00Z",
+=======
+        "timestamp": "2025-11-16T04:43:12.001872+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "papadritta",
@@ -641,6 +645,18 @@
                 "type": "modified",
                 "old_value": true,
                 "new_value": false
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
