@@ -179,5 +179,19 @@
                 "new_value": "4331267"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-17T21:36:52.494169+00:00Z",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
