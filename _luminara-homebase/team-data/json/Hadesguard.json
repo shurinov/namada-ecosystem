@@ -366,11 +366,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-17T15:29:46.414272+00:00Z",
+=======
+        "timestamp": "2025-11-17T15:41:14.456025+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
                 "type": "modified",
@@ -380,6 +385,8 @@
             {
                 "team": "Hadesguard",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
                 "type": "modified",

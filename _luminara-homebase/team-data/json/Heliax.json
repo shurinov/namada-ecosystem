@@ -600,6 +600,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-17T15:29:46.414272+00:00Z",
         "changes": [
             {
@@ -631,6 +632,12 @@
             },
             {
                 "team": "Heliax",
+=======
+        "timestamp": "2025-11-17T15:41:14.456025+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+>>>>>>> Stashed changes
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.masp.sync_state",
