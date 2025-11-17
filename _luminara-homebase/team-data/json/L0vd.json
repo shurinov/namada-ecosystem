@@ -276,5 +276,28 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-17T10:30:51.804825+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.L0vd.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4325352",
+                "new_value": "4325954"
+            },
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
