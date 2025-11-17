@@ -174,5 +174,28 @@
                 "new_value": "1.4.7"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-17T22:39:48.515391+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]

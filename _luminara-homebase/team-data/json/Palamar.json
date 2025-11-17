@@ -174,5 +174,28 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-17T22:39:48.515391+00:00Z",
+        "changes": [
+            {
+                "team": "Palamar",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Palamar.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Palamar",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Palamar.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.4",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
