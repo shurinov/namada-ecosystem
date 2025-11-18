@@ -574,5 +574,80 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-18T13:06:03.582529+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.31.2"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.Hadesguard.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.tududes.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4339425",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.Hadesguard.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp.namada.tududes.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4339423",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.Hadesguard.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.hadesguard.tech",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.4",
+                    "latest_block_height": "4339427",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
