@@ -3657,5 +3657,28 @@
                 "new_value": "4207211"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-18T12:24:24.430956+00:00Z",
+        "changes": [
+            {
+                "team": "MELLIFERA",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.MELLIFERA.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "MELLIFERA",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.MELLIFERA.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
