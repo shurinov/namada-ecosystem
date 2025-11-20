@@ -567,5 +567,19 @@
                 "new_value": "4368625"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-20T21:33:46.795461+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
