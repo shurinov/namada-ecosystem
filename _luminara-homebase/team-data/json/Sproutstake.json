@@ -136,5 +136,28 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-21T10:12:47.395303+00:00Z",
+        "changes": [
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.service.indexer.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "3.3.4"
+            }
+        ]
     }
 ]
