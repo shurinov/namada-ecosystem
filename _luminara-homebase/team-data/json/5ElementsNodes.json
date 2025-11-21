@@ -40,5 +40,19 @@
                 "new_value": "6.6.1"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-21T18:34:23.645018+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
