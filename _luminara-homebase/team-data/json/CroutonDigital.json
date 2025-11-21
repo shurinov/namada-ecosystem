@@ -342,5 +342,62 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-21T17:38:21.451548+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.CroutonDigital.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.crouton.digital",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4378939",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.CroutonDigital.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-mainnet-masp-indexer.crouton.digital",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4378936",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.CroutonDigital.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.crouton.digital",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": false,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4378939",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
