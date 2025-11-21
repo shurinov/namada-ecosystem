@@ -1,249 +1,60 @@
 [
     {
-        "timestamp": "2025-11-21T08:17:33.638029+00:00Z",
+        "timestamp": "2025-11-21T17:10:33.730061+00:00Z",
         "changes": [
             {
                 "team": "Hadesguard",
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Hadesguard.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.4",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T08:36:36.705540+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4373784",
-                "new_value": "4374078"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T08:46:38.999751+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T09:12:54.065705+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T09:28:09.229207+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4374078",
-                "new_value": "4374769"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T09:39:09.835970+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T11:10:06.500446+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T11:22:11.346129+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T12:22:09.711260+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T13:03:22.407354+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T14:11:52.186780+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T14:26:32.664765+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4376794",
-                "new_value": "4377369"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-11-21T15:23:46.059959+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4377369",
-                "new_value": "4377899"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-11-21T16:32:04.488824+00:00Z",
-=======
-        "timestamp": "2025-11-21T16:41:54.288796+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4377899",
-                "new_value": "4378434"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-=======
->>>>>>> Stashed changes
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
             }
         ]
     }
