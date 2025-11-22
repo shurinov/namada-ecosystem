@@ -579,7 +579,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-22T04:29:51.459895+00:00Z",
+=======
+        "timestamp": "2025-11-22T04:40:02.836798+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "papadritta",
@@ -589,6 +593,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "papadritta",
@@ -598,6 +603,8 @@
                 "type": "modified",
                 "old_value": "4384159",
                 "new_value": "4384630"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
