@@ -1273,5 +1273,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-24T12:57:10.256184+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
