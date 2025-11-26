@@ -511,5 +511,28 @@
                 "new_value": "4435665"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-26T08:17:07.938068+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
