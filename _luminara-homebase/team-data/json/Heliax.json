@@ -1138,6 +1138,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-27T14:27:33.558277+00:00Z",
         "changes": [
             {
@@ -1148,6 +1149,18 @@
                 "type": "modified",
                 "old_value": "4451215",
                 "new_value": "4451601"
+=======
+        "timestamp": "2025-11-27T14:41:34.609372+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Heliax",
@@ -1155,12 +1168,17 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_ok",
+=======
+                "old_value": "sync_nok",
+>>>>>>> Stashed changes
                 "new_value": "sync_lag"
             },
             {
                 "team": "Heliax",
                 "service": "rpc",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Heliax.service.rpc.latest_block_height",
                 "type": "modified",
@@ -1170,11 +1188,14 @@
             {
                 "team": "Heliax",
                 "service": "rpc",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Heliax",
@@ -1193,6 +1214,8 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }

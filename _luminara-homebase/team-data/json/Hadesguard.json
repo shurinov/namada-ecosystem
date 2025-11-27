@@ -1138,6 +1138,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-11-27T14:27:33.558277+00:00Z",
         "changes": [
             {
@@ -1169,12 +1170,30 @@
             },
             {
                 "team": "Hadesguard",
+=======
+        "timestamp": "2025-11-27T14:41:34.609372+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+>>>>>>> Stashed changes
                 "service": "indexer",
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }
