@@ -457,5 +457,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-29T15:25:04.571198+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.CroutonDigital.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4475537",
+                "new_value": "4476850"
+            }
+        ]
     }
 ]
