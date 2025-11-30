@@ -689,5 +689,64 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-30T20:12:45.363029+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.L0vd.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.L0vd.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.L0vd.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
