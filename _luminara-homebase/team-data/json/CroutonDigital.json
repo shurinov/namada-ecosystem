@@ -1,71 +1,6 @@
 [
     {
-        "timestamp": "2025-12-01T23:11:37.780732+00:00Z",
-        "changes": [
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-01T23:37:27.625249+00:00Z",
-        "changes": [
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T00:57:44.487698+00:00Z",
-        "changes": [
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T02:07:05.509446+00:00Z",
-        "changes": [
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.CroutonDigital.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4505739",
-                "new_value": "4506629"
-            },
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T02:46:01.336443+00:00Z",
+        "timestamp": "2025-12-02T05:12:45.326676+00:00Z",
         "changes": [
             {
                 "team": "CroutonDigital",
@@ -75,36 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-02T04:47:57.484631+00:00Z",
-=======
-        "timestamp": "2025-12-02T04:36:56.796820+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-=======
-            },
-            {
-                "team": "CroutonDigital",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.CroutonDigital.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4507035",
-                "new_value": "4508357"
->>>>>>> Stashed changes
             }
         ]
     }
