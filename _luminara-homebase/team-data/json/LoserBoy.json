@@ -1,86 +1,42 @@
 [
     {
-        "timestamp": "2025-12-02T14:31:19.125617+00:00Z",
+        "timestamp": "2025-12-02T16:16:47.020602+00:00Z",
         "changes": [
             {
                 "team": "LoserBoy",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.LoserBoy.service.masp.latest_block_height",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.LoserBoy.service.rpc.status",
                 "type": "modified",
-                "old_value": "4512991",
-                "new_value": "4513329"
+                "old_value": "up",
+                "new_value": "down"
             },
             {
                 "team": "LoserBoy",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.LoserBoy.service.rpc.version",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T14:45:55.224089+00:00Z",
-        "changes": [
-            {
-                "team": "LoserBoy",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T15:14:08.011437+00:00Z",
-        "changes": [
-            {
-                "team": "LoserBoy",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-02T15:32:01.454721+00:00Z",
-=======
-        "timestamp": "2025-12-02T15:43:22.943195+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "LoserBoy",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.LoserBoy.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4513329",
-                "new_value": "4513985"
+                "old_value": "0.37.16",
+                "new_value": "n/a"
             },
             {
                 "team": "LoserBoy",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.LoserBoy.service.rpc.namada_version",
                 "type": "modified",
-                "old_value": "sync_nok",
-=======
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
                 "field": "sync_state",
-                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "full_path": "namada.operator.LoserBoy.service.rpc.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
->>>>>>> Stashed changes
-                "new_value": "sync_ok"
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
             }
         ]
     }
