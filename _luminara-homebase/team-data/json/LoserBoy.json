@@ -185,5 +185,37 @@
                 "new_value": "201.0.7"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-02T18:19:17.936931+00:00Z",
+        "changes": [
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.LoserBoy.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.LoserBoy.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.16",
+                "new_value": "n/a"
+            },
+            {
+                "team": "LoserBoy",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.LoserBoy.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.7",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
