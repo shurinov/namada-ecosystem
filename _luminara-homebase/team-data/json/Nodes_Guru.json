@@ -1,15 +1,24 @@
 [
     {
-        "timestamp": "2025-12-02T14:31:19.125617+00:00Z",
+        "timestamp": "2025-12-02T16:38:20.820790+00:00Z",
         "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "201.0.7"
+            },
             {
                 "team": "Nodes.Guru",
                 "service": "masp",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Nodes.Guru.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "4512991",
-                "new_value": "4513329"
+                "old_value": "4513985",
+                "new_value": "4514403"
             },
             {
                 "team": "Nodes.Guru",
@@ -17,70 +26,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T14:45:55.224089+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-02T15:14:08.011437+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
+                "old_value": "sync_ok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-02T15:32:01.454721+00:00Z",
-=======
-        "timestamp": "2025-12-02T15:43:22.943195+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4513329",
-                "new_value": "4513985"
-            },
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-=======
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
->>>>>>> Stashed changes
-                "new_value": "sync_ok"
             }
         ]
     }
