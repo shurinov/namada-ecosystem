@@ -1,8 +1,8 @@
 {
-    "script_start_time": "2025-12-02T16:52:37.743201+00:00Z",
-    "script_end_time": "2025-12-02T17:01:28.214430+00:00Z",
+    "script_start_time": "2025-12-02T17:19:32.476758+00:00Z",
+    "script_end_time": "2025-12-02T17:28:33.982132+00:00Z",
     "reference_latest_block_height": "4514500",
-    "housefire_reference_latest_block_height": "3621264",
+    "housefire_reference_latest_block_height": "3621453",
     "required_versions": {
         "interface": "1.32.1",
         "indexer": "4.1.0",
@@ -701,11 +701,11 @@
                         {
                             "service": "rpc",
                             "url": "https://namada.loserboy.xyz",
-                            "status": "down",
-                            "version": "n/a",
+                            "status": "up",
+                            "version": "0.37.16",
                             "is_up_to_date": false,
-                            "namada_version": "n/a",
-                            "latest_block_height": "0",
+                            "namada_version": "201.0.7",
+                            "latest_block_height": "4514078",
                             "sync_state": "sync_nok"
                         }
                     ]
