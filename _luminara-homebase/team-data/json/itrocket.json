@@ -276,7 +276,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-04T21:26:45.565906+00:00Z",
+=======
+        "timestamp": "2025-12-04T21:38:01.231319+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "itrocket",
@@ -284,6 +288,7 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.itrocket.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
             },
@@ -295,6 +300,10 @@
                 "type": "modified",
                 "old_value": "4539832",
                 "new_value": "4540244"
+=======
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }
