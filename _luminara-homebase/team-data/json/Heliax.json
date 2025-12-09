@@ -23,6 +23,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-09T10:33:01.969121+00:00Z",
         "changes": [
             {
@@ -30,6 +31,15 @@
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.Heliax.service.masp.sync_state",
+=======
+        "timestamp": "2025-12-09T10:45:55.196651+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+>>>>>>> Stashed changes
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
@@ -42,6 +52,7 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Heliax",
@@ -69,6 +80,8 @@
                 "type": "modified",
                 "old_value": "4595777",
                 "new_value": "4596165"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
