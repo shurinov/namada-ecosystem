@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-12-10T15:15:18.760478+00:00Z",
+        "timestamp": "2025-12-10T17:15:00.731461+00:00Z",
         "changes": [
             {
                 "team": "Citizen Web3",
@@ -10,91 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-10T15:32:52.257192+00:00Z",
-        "changes": [
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Citizen Web3.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4610573",
-                "new_value": "4611173"
-            },
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-10T15:42:59.662989+00:00Z",
-        "changes": [
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-10T16:18:21.128816+00:00Z",
-        "changes": [
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-10T16:36:51.920877+00:00Z",
-=======
-        "timestamp": "2025-12-10T16:48:58.283131+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Citizen Web3.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4611173",
-                "new_value": "4611615"
-            },
-            {
-                "team": "Citizen Web3",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-=======
-                "field": "sync_state",
-                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
->>>>>>> Stashed changes
-                "new_value": "sync_lag"
             }
         ]
     }
