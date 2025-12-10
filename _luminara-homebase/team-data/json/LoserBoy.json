@@ -65,11 +65,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-10T16:36:51.920877+00:00Z",
+=======
+        "timestamp": "2025-12-10T16:48:58.283131+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "LoserBoy",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.LoserBoy.service.masp.latest_block_height",
                 "type": "modified",
@@ -83,6 +88,12 @@
                 "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
+=======
+                "field": "sync_state",
+                "full_path": "namada.operator.LoserBoy.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+>>>>>>> Stashed changes
                 "new_value": "sync_lag"
             }
         ]
