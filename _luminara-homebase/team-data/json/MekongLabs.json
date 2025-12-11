@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-12-11T08:38:47.717987+00:00Z",
+        "timestamp": "2025-12-11T11:11:57.296722+00:00Z",
         "changes": [
             {
                 "team": "MekongLabs",
@@ -8,102 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
+                "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            },
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4619111",
-                "new_value": "4619738"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-11T09:33:16.039137+00:00Z",
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4619738",
-                "new_value": "4620374"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-11T09:44:40.722142+00:00Z",
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-11T10:14:16.959067+00:00Z",
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-11T10:33:42.773052+00:00Z",
-=======
-        "timestamp": "2025-12-11T10:45:59.490313+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4620374",
-                "new_value": "4620781"
-            },
-            {
-                "team": "MekongLabs",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-=======
-                "field": "sync_state",
-                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
->>>>>>> Stashed changes
-                "new_value": "sync_lag"
             }
         ]
     }
