@@ -1018,7 +1018,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-15T20:32:53.634246+00:00Z",
+=======
+        "timestamp": "2025-12-15T20:43:10.270806+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "StakeUp",
@@ -1026,6 +1030,7 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.StakeUp.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
             },
@@ -1037,6 +1042,10 @@
                 "type": "modified",
                 "old_value": "4674255",
                 "new_value": "4675021"
+=======
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }
