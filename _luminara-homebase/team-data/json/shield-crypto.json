@@ -415,11 +415,27 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-16T10:33:43.369568+00:00Z",
+=======
+        "timestamp": "2025-12-16T10:46:39.784341+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "rpc",
+<<<<<<< Updated upstream
+=======
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.shield-crypto.service.rpc.version",
                 "type": "modified",
@@ -434,6 +450,7 @@
                 "type": "modified",
                 "old_value": "n/a",
                 "new_value": "201.0.7"
+<<<<<<< Updated upstream
             },
             {
                 "team": "shield-crypto",
@@ -443,6 +460,8 @@
                 "type": "modified",
                 "old_value": "down",
                 "new_value": "up"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
