@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-12-16T22:12:23.693045+00:00Z",
+        "timestamp": "2025-12-16T23:11:38.783286+00:00Z",
         "changes": [
             {
                 "team": "StakeUp",
@@ -8,40 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.StakeUp.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
+                "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-16T22:26:22.455298+00:00Z",
-=======
-        "timestamp": "2025-12-16T22:40:32.650545+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4687855",
-                "new_value": "4688326"
-=======
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
->>>>>>> Stashed changes
             }
         ]
     }
