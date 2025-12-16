@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-12-16T21:12:57.499240+00:00Z",
+        "timestamp": "2025-12-16T22:12:23.693045+00:00Z",
         "changes": [
             {
                 "team": "deNodes",
@@ -8,42 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.deNodes.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
+                "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-16T21:38:59.563670+00:00Z",
-=======
-        "timestamp": "2025-12-16T21:27:55.483270+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "deNodes",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-=======
-                "field": "latest_block_height",
-                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4687268",
-                "new_value": "4687855"
-            },
-            {
-                "team": "deNodes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.deNodes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
->>>>>>> Stashed changes
-                "new_value": "sync_ok"
             }
         ]
     }
