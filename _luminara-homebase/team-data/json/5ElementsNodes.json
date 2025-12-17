@@ -306,10 +306,35 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-17T21:39:09.033979+00:00Z",
         "changes": [
             {
                 "team": "5ElementsNodes",
+=======
+        "timestamp": "2025-12-17T21:28:04.718595+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4699607",
+                "new_value": "4699984"
+            },
+            {
+                "team": "5ElementsNodes",
+>>>>>>> Stashed changes
                 "service": "indexer",
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
@@ -319,6 +344,18 @@
             },
             {
                 "team": "5ElementsNodes",
+<<<<<<< Updated upstream
+=======
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4699606",
+                "new_value": "4699918"
+            },
+            {
+                "team": "5ElementsNodes",
+>>>>>>> Stashed changes
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
@@ -328,12 +365,21 @@
             },
             {
                 "team": "5ElementsNodes",
+<<<<<<< Updated upstream
                 "service": "rpc",
                 "field": "sync_state",
                 "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_nok"
+=======
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4699585",
+                "new_value": "4699791"
+>>>>>>> Stashed changes
             }
         ]
     }
