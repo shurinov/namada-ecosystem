@@ -37,6 +37,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-18T15:42:28.917448+00:00Z",
         "changes": [
             {
@@ -56,6 +57,18 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+        "timestamp": "2025-12-18T15:31:47.307555+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4708813",
+                "new_value": "4709324"
+>>>>>>> Stashed changes
             },
             {
                 "team": "TuDudes",
@@ -65,6 +78,27 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4708813",
+                "new_value": "4709324"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }

@@ -65,11 +65,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-18T15:42:28.917448+00:00Z",
+=======
+        "timestamp": "2025-12-18T15:31:47.307555+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "EmberStake",
                 "service": "interface",
+<<<<<<< Updated upstream
                 "field": "status",
                 "full_path": "namada.operator.EmberStake.interface.status",
                 "type": "modified",
@@ -79,6 +84,8 @@
             {
                 "team": "EmberStake",
                 "service": "interface",
+=======
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.EmberStake.interface.version",
                 "type": "modified",
@@ -87,12 +94,21 @@
             },
             {
                 "team": "EmberStake",
+<<<<<<< Updated upstream
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.EmberStake.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.EmberStake.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+>>>>>>> Stashed changes
             }
         ]
     }
