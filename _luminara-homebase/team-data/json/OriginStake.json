@@ -1,58 +1,25 @@
 [
     {
-        "timestamp": "2025-12-18T11:44:07.878840+00:00Z",
+        "timestamp": "2025-12-18T16:17:31.285999+00:00Z",
         "changes": [
             {
                 "team": "OriginStake",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.OriginStake.interface.status",
                 "type": "modified",
-                "old_value": "4706710",
-                "new_value": "4707221"
+                "old_value": "down",
+                "new_value": "up"
             },
             {
                 "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.interface.version",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T12:25:08.223841+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T13:09:18.682544+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T15:14:19.061001+00:00Z",
-        "changes": [
+                "old_value": "n/a",
+                "new_value": "1.31.4"
+            },
             {
                 "team": "OriginStake",
                 "service": "masp",
@@ -61,54 +28,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-18T15:42:28.917448+00:00Z",
-=======
-        "timestamp": "2025-12-18T15:31:47.307555+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "interface",
-<<<<<<< Updated upstream
-                "field": "status",
-                "full_path": "namada.operator.OriginStake.interface.status",
-                "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
-            },
-            {
-                "team": "OriginStake",
-                "service": "interface",
-=======
->>>>>>> Stashed changes
-                "field": "version",
-                "full_path": "namada.operator.OriginStake.interface.version",
-                "type": "modified",
-                "old_value": "1.31.4",
-                "new_value": "n/a"
-            },
-            {
-                "team": "OriginStake",
-<<<<<<< Updated upstream
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-=======
-                "service": "interface",
-                "field": "status",
-                "full_path": "namada.operator.OriginStake.interface.status",
-                "type": "modified",
-                "old_value": "up",
-                "new_value": "down"
->>>>>>> Stashed changes
             }
         ]
     }

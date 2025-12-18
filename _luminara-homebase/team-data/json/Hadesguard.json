@@ -1,30 +1,16 @@
 [
     {
-        "timestamp": "2025-12-18T11:44:07.878840+00:00Z",
+        "timestamp": "2025-12-18T16:17:31.285999+00:00Z",
         "changes": [
             {
                 "team": "Hadesguard",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4706710",
-                "new_value": "4707221"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
+                "service": "indexer",
                 "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T15:14:19.061001+00:00Z",
-        "changes": [
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
             {
                 "team": "Hadesguard",
                 "service": "masp",
@@ -33,42 +19,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-18T15:42:28.917448+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-=======
-        "timestamp": "2025-12-18T15:31:47.307555+00:00Z",
-        "changes": [
-            {
-                "team": "Hadesguard",
-                "service": "rpc",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.rpc.latest_block_height",
-                "type": "modified",
-                "old_value": "4708815",
-                "new_value": "4709325"
->>>>>>> Stashed changes
             },
             {
                 "team": "Hadesguard",
@@ -76,29 +26,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Hadesguard.service.rpc.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-=======
-            },
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Hadesguard.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "4708814",
-                "new_value": "4709325"
-            },
-            {
-                "team": "Hadesguard",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
->>>>>>> Stashed changes
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
             }
         ]
     }
