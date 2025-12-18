@@ -1,233 +1,24 @@
 [
     {
-        "timestamp": "2025-12-18T06:20:02.463142+00:00Z",
+        "timestamp": "2025-12-18T11:44:07.878840+00:00Z",
         "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T06:53:05.227948+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T07:15:25.633355+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T07:28:47.764525+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T08:38:37.062523+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            },
             {
                 "team": "StakeUp",
                 "service": "masp",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "4704695",
-                "new_value": "4705686"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T08:50:02.006820+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T09:18:11.699675+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T09:34:42.832659+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_ok"
+                "old_value": "4706710",
+                "new_value": "4707221"
             },
             {
                 "team": "StakeUp",
                 "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4705686",
-                "new_value": "4706300"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T09:45:38.867668+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T10:13:52.129431+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T10:32:13.839687+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_lag"
-            },
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4706300",
-                "new_value": "4706710"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T10:45:19.257798+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.StakeUp.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-18T11:14:36.149019+00:00Z",
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-18T11:26:05.137130+00:00Z",
-=======
-        "timestamp": "2025-12-18T11:37:28.773898+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "StakeUp",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-=======
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
->>>>>>> Stashed changes
             }
         ]
     }
