@@ -79,11 +79,27 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-20T08:43:54.105379+00:00Z",
+=======
+        "timestamp": "2025-12-20T08:34:30.138185+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "MekongLabs",
                 "service": "masp",
+<<<<<<< Updated upstream
+=======
+                "field": "latest_block_height",
+                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4729203",
+                "new_value": "4729878"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
                 "type": "modified",
