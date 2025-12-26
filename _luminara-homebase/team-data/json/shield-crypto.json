@@ -231,11 +231,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-26T05:30:23.824933+00:00Z",
+=======
+        "timestamp": "2025-12-26T05:42:43.754923+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.shield-crypto.service.indexer.latest_block_height",
                 "type": "modified",
@@ -245,6 +250,8 @@
             {
                 "team": "shield-crypto",
                 "service": "indexer",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
                 "type": "modified",
@@ -253,12 +260,21 @@
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "rpc",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
                 "type": "modified",
                 "old_value": "4802102",
                 "new_value": "4802668"
+=======
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -268,6 +284,7 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "shield-crypto",
@@ -286,6 +303,8 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
