@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2025-12-27T21:10:05.864153+00:00Z",
+        "timestamp": "2025-12-28T05:25:44.878024+00:00Z",
         "changes": [
             {
                 "team": "itrocket",
@@ -8,145 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.itrocket.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
+                "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-27T21:36:17.998404+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-27T22:11:20.651234+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-27T22:40:15.621199+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-27T23:11:40.573942+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-27T23:37:13.903880+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-28T01:07:11.773357+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2025-12-28T02:29:57.551947+00:00Z",
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "itrocket",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4824310",
-                "new_value": "4825097"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2025-12-28T04:51:59.523871+00:00Z",
-=======
-        "timestamp": "2025-12-28T04:59:02.807641+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "itrocket",
-                "service": "masp",
-<<<<<<< Updated upstream
-                "field": "latest_block_height",
-                "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4826248",
-                "new_value": "4827040"
-            },
-            {
-                "team": "itrocket",
-                "service": "masp",
-=======
->>>>>>> Stashed changes
-                "field": "sync_state",
-                "full_path": "namada.operator.itrocket.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
             }
         ]
     }
