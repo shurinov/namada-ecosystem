@@ -270,11 +270,27 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-29T20:32:22.361950+00:00Z",
+=======
+        "timestamp": "2025-12-29T20:42:37.895194+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "shield-crypto",
                 "service": "interface",
+<<<<<<< Updated upstream
+=======
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "interface",
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.shield-crypto.interface.version",
                 "type": "modified",
@@ -283,24 +299,57 @@
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "service",
                 "full_path": "namada.operator.shield-crypto.service.indexer.service",
                 "type": "removed",
                 "old_value": "indexer",
+=======
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.shield-crypto.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4847280",
+                    "sync_state": "sync_ok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "url",
                 "full_path": "namada.operator.shield-crypto.service.indexer.url",
                 "type": "removed",
                 "old_value": "https://namada-indexer.shield-crypto.com",
+=======
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-public-masp.shield-crypto.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4846570",
+                    "sync_state": "sync_nok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "shield-crypto",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "status",
                 "full_path": "namada.operator.shield-crypto.service.indexer.status",
@@ -460,6 +509,23 @@
                 "type": "modified",
                 "old_value": "up",
                 "new_value": "down"
+=======
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.shield-crypto.networks.0.interface.14.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-public-rpc.shield-crypto.com",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": false,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "4847280",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+>>>>>>> Stashed changes
             }
         ]
     }
