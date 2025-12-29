@@ -100,5 +100,19 @@
                 "new_value": "4837580"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-29T03:19:09.026781+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.33.0",
+                "new_value": "1.32.1-maint.1"
+            }
+        ]
     }
 ]
