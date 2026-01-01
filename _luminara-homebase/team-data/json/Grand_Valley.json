@@ -172,16 +172,28 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-01T20:31:59.237822+00:00Z",
+=======
+        "timestamp": "2026-01-01T20:41:54.633397+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Grand Valley",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "sync_state",
                 "full_path": "namada.operator.Grand Valley.service.indexer.sync_state",
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_ok"
+=======
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Grand Valley",
@@ -195,6 +207,7 @@
             {
                 "team": "Grand Valley",
                 "service": "indexer",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Grand Valley.service.indexer.latest_block_height",
                 "type": "modified",
@@ -213,11 +226,25 @@
             {
                 "team": "Grand Valley",
                 "service": "indexer",
+=======
+>>>>>>> Stashed changes
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.Grand Valley.service.indexer.is_up_to_date",
                 "type": "modified",
                 "old_value": false,
                 "new_value": true
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+>>>>>>> Stashed changes
             }
         ]
     }
