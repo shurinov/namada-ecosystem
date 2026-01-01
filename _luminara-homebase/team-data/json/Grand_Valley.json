@@ -32,11 +32,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-01T21:26:19.095130+00:00Z",
+=======
+        "timestamp": "2026-01-01T21:38:06.426211+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Grand Valley",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "version",
                 "full_path": "namada.operator.Grand Valley.service.masp.version",
                 "type": "modified",
@@ -46,11 +51,14 @@
             {
                 "team": "Grand Valley",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Grand Valley",
@@ -78,6 +86,8 @@
                 "type": "modified",
                 "old_value": "0",
                 "new_value": "4884944"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
