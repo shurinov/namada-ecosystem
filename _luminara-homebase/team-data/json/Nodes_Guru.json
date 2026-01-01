@@ -28,7 +28,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-01T23:27:26.318680+00:00Z",
+=======
+        "timestamp": "2026-01-01T23:38:25.858268+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Nodes.Guru",
@@ -38,6 +42,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Nodes.Guru",
@@ -47,6 +52,8 @@
                 "type": "modified",
                 "old_value": "4885482",
                 "new_value": "4885909"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
