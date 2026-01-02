@@ -1,111 +1,15 @@
 [
     {
-        "timestamp": "2026-01-02T17:10:55.950840+00:00Z",
+        "timestamp": "2026-01-02T19:33:31.321361+00:00Z",
         "changes": [
             {
                 "team": "Nodes.Guru",
-                "service": "indexer",
+                "service": "masp",
                 "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_ok",
+                "old_value": "sync_nok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-02T17:25:16.729604+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            },
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "4894803",
-                "new_value": "4895098"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-02T17:39:40.755232+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-02T18:18:27.085525+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-01-02T18:39:24.251195+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.latest_block_height",
-                "type": "modified",
-                "old_value": "4895098",
-                "new_value": "4895858"
-            },
-            {
-                "team": "Nodes.Guru",
-                "service": "indexer",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-=======
-        "timestamp": "2026-01-02T18:49:06.078122+00:00Z",
-        "changes": [
-            {
-                "team": "Nodes.Guru",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
->>>>>>> Stashed changes
             }
         ]
     }
