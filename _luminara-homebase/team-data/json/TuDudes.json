@@ -1,20 +1,6 @@
 [
     {
-        "timestamp": "2026-01-01T22:12:23.030670+00:00Z",
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-01T22:41:31.237757+00:00Z",
+        "timestamp": "2026-01-02T01:01:05.426373+00:00Z",
         "changes": [
             {
                 "team": "TuDudes",
@@ -24,36 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-01-01T23:27:26.318680+00:00Z",
-=======
-        "timestamp": "2026-01-01T23:38:25.858268+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "TuDudes",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "4885482",
-                "new_value": "4885909"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
