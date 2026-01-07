@@ -301,11 +301,27 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-07T18:44:11.246190+00:00Z",
+=======
+        "timestamp": "2026-01-07T18:53:49.850451+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Nodes.Guru",
                 "service": "interface",
+<<<<<<< Updated upstream
+=======
+                "field": "status",
+                "full_path": "namada.operator.Nodes.Guru.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "interface",
+>>>>>>> Stashed changes
                 "field": "version",
                 "full_path": "namada.operator.Nodes.Guru.interface.version",
                 "type": "modified",
@@ -314,24 +330,57 @@
             },
             {
                 "team": "Nodes.Guru",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "service",
                 "full_path": "namada.operator.Nodes.Guru.service.indexer.service",
                 "type": "removed",
                 "old_value": "indexer",
+=======
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.nodes.guru:443",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4957053",
+                    "sync_state": "sync_ok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "Nodes.Guru",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "url",
                 "full_path": "namada.operator.Nodes.Guru.service.indexer.url",
                 "type": "removed",
                 "old_value": "https://namada-indexer.nodes.guru:443",
+=======
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp.nodes.guru:443",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4952037",
+                    "sync_state": "sync_nok"
+                },
+>>>>>>> Stashed changes
                 "new_value": null
             },
             {
                 "team": "Nodes.Guru",
+<<<<<<< Updated upstream
                 "service": "indexer",
                 "field": "status",
                 "full_path": "namada.operator.Nodes.Guru.service.indexer.status",
@@ -491,6 +540,23 @@
                 "type": "modified",
                 "old_value": "up",
                 "new_value": "down"
+=======
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.nodes.guru:443",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": false,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "4957053",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+>>>>>>> Stashed changes
             }
         ]
     }
