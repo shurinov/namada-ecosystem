@@ -580,7 +580,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-09T11:26:43.884586+00:00Z",
+=======
+        "timestamp": "2026-01-09T11:38:15.298710+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
@@ -590,6 +594,7 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Hadesguard",
@@ -599,6 +604,8 @@
                 "type": "modified",
                 "old_value": "4976616",
                 "new_value": "4978185"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
