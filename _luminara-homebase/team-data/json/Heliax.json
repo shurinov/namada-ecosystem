@@ -483,7 +483,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-14T18:44:30.032630+00:00Z",
+=======
+        "timestamp": "2026-01-14T18:54:45.526124+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Heliax",
@@ -493,6 +497,7 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Heliax",
@@ -502,6 +507,8 @@
                 "type": "modified",
                 "old_value": "5041611",
                 "new_value": "5043455"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
