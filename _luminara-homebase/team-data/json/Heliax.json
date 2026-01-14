@@ -1,47 +1,24 @@
 [
     {
-        "timestamp": "2026-01-14T19:13:04.775787+00:00Z",
+        "timestamp": "2026-01-14T19:43:56.679340+00:00Z",
         "changes": [
-            {
-                "team": "Heliax",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Heliax.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-01-14T19:26:08.333616+00:00Z",
-=======
-        "timestamp": "2026-01-14T19:37:45.453290+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "Heliax",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.Heliax.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            },
             {
                 "team": "Heliax",
                 "service": "masp",
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Heliax.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "5043455",
-                "new_value": "5043472"
-=======
+                "old_value": "5043472",
+                "new_value": "5043819"
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
->>>>>>> Stashed changes
             }
         ]
     }
