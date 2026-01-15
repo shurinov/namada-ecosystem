@@ -276,5 +276,46 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-15T13:02:00.047814+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "5052088",
+                "new_value": "5052758"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5052060",
+                "new_value": "5052095"
+            }
+        ]
     }
 ]
