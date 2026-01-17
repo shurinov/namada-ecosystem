@@ -979,5 +979,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-17T17:38:09.620006+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
