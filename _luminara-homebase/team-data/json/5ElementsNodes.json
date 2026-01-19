@@ -351,5 +351,37 @@
                 "new_value": "1.33.0"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-19T17:29:59.590573+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5103317",
+                "new_value": "5104257"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "1.33.0"
+            }
+        ]
     }
 ]
