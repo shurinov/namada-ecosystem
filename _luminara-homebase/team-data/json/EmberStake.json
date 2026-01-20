@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2026-01-19T21:11:51.501535+00:00Z",
+        "timestamp": "2026-01-20T12:29:13.713912+00:00Z",
         "changes": [
             {
                 "team": "EmberStake",
@@ -10,106 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-19T21:27:18.353884+00:00Z",
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-19T22:13:11.907948+00:00Z",
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-19T22:43:16.458368+00:00Z",
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-19T23:12:42.279764+00:00Z",
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-19T23:39:35.853470+00:00Z",
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-01-20T11:30:25.302175+00:00Z",
-=======
-        "timestamp": "2026-01-20T11:42:07.151929+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_lag"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "EmberStake",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.EmberStake.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "5112518",
-                "new_value": "5113510"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
