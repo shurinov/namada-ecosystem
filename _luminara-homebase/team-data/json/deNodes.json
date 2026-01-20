@@ -56,7 +56,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-20T11:30:25.302175+00:00Z",
+=======
+        "timestamp": "2026-01-20T11:42:07.151929+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "deNodes",
@@ -66,6 +70,7 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "deNodes",
@@ -75,6 +80,8 @@
                 "type": "modified",
                 "old_value": "5112518",
                 "new_value": "5113510"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
