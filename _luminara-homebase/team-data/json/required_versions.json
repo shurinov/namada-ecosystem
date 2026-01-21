@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2026-01-21T17:06:03.498351+00:00Z",
+        "timestamp": "2026-01-21T19:54:04.587310+00:00Z",
         "changes": [
             {
                 "team": null,
@@ -8,87 +8,8 @@
                 "field": "housefire_reference_latest_block_height",
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
-                "old_value": "4124629",
-                "new_value": "4125093"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-21T17:35:25.205899+00:00Z",
-        "changes": [
-            {
-                "team": null,
-                "service": null,
-                "field": "housefire_reference_latest_block_height",
-                "full_path": "housefire_reference_latest_block_height",
-                "type": "modified",
-                "old_value": "4124629",
-                "new_value": "4125093"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-21T18:09:05.045639+00:00Z",
-        "changes": [
-            {
-                "team": null,
-                "service": null,
-                "field": "housefire_reference_latest_block_height",
-                "full_path": "housefire_reference_latest_block_height",
-                "type": "modified",
-                "old_value": "4125093",
-                "new_value": "4125627"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-21T18:31:32.823261+00:00Z",
-        "changes": [
-            {
-                "team": null,
-                "service": null,
-                "field": "housefire_reference_latest_block_height",
-                "full_path": "housefire_reference_latest_block_height",
-                "type": "modified",
-                "old_value": "4125093",
-                "new_value": "4125627"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-21T19:19:32.625146+00:00Z",
-        "changes": [
-            {
-                "team": null,
-                "service": null,
-                "field": "housefire_reference_latest_block_height",
-                "full_path": "housefire_reference_latest_block_height",
-                "type": "modified",
-                "old_value": "4125627",
-                "new_value": "4125932"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-01-21T19:07:00.653757+00:00Z",
-=======
-        "timestamp": "2026-01-21T19:47:42.753958+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": null,
-                "service": null,
-                "field": "housefire_reference_latest_block_height",
-                "full_path": "housefire_reference_latest_block_height",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "4125627",
-                "new_value": "4125932"
-=======
                 "old_value": "4125932",
                 "new_value": "4126266"
->>>>>>> Stashed changes
             }
         ]
     }
