@@ -1194,5 +1194,19 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-25T14:26:59.806592+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "1.33.0"
+            }
+        ]
     }
 ]
