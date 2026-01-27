@@ -1623,7 +1623,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-27T21:39:12.977480+00:00Z",
+=======
+        "timestamp": "2026-01-27T21:26:21.540470+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Hadesguard",
@@ -1636,12 +1640,21 @@
             },
             {
                 "team": "Hadesguard",
+<<<<<<< Updated upstream
                 "service": "interface",
                 "field": "version",
                 "full_path": "namada.operator.Hadesguard.interface.version",
                 "type": "modified",
                 "old_value": "1.31.2",
                 "new_value": "n/a"
+=======
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5204466",
+                "new_value": "5205047"
+>>>>>>> Stashed changes
             },
             {
                 "team": "Hadesguard",
@@ -1651,6 +1664,18 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
+=======
+            },
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.interface.version",
+                "type": "modified",
+                "old_value": "1.31.2",
+                "new_value": "n/a"
+>>>>>>> Stashed changes
             }
         ]
     }
