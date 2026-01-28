@@ -114,5 +114,28 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-28T18:58:44.279941+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Citizen Web3.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Citizen Web3.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
