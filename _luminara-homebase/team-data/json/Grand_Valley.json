@@ -497,7 +497,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-01-31T17:30:26.333840+00:00Z",
+=======
+        "timestamp": "2026-01-31T17:45:26.742599+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Grand Valley",
@@ -507,6 +511,7 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "Grand Valley",
@@ -516,6 +521,8 @@
                 "type": "modified",
                 "old_value": "5249879",
                 "new_value": "5252627"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
