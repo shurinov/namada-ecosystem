@@ -1,94 +1,6 @@
 [
     {
-        "timestamp": "2026-01-31T18:19:12.609343+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-31T18:43:34.640351+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-02-01T07:57:10.592257+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            },
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "5257541",
-                "new_value": "5260050"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-02-01T08:21:17.708784+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-02-01T08:45:37.918964+00:00Z",
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "5260050",
-                "new_value": "5260111"
-            },
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-02-01T08:53:54.356314+00:00Z",
+        "timestamp": "2026-02-01T19:22:00.375249+00:00Z",
         "changes": [
             {
                 "team": "OriginStake",
@@ -98,36 +10,6 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_nok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-02-01T18:48:08.403400+00:00Z",
-=======
-        "timestamp": "2026-02-01T18:57:37.367919+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
-                "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-<<<<<<< Updated upstream
-            },
-            {
-                "team": "OriginStake",
-                "service": "masp",
-                "field": "latest_block_height",
-                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
-                "type": "modified",
-                "old_value": "5262689",
-                "new_value": "5265672"
-=======
->>>>>>> Stashed changes
             }
         ]
     }
