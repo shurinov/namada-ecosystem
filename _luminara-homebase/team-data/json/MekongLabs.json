@@ -276,6 +276,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-06T23:33:47.068641+00:00Z",
         "changes": [
             {
@@ -322,6 +323,18 @@
                 "type": "modified",
                 "old_value": "201.0.7",
                 "new_value": "n/a"
+=======
+        "timestamp": "2026-02-06T23:45:59.027039+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+>>>>>>> Stashed changes
             }
         ]
     }
