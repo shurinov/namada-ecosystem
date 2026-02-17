@@ -1965,5 +1965,37 @@
                 "new_value": "5463238"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-17T16:12:58.241765+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
