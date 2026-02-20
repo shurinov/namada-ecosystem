@@ -2164,7 +2164,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-20T07:31:13.556018+00:00Z",
+=======
+        "timestamp": "2026-02-20T08:01:25.094137+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Citizen Web3",
@@ -2172,6 +2176,7 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_nok",
                 "new_value": "sync_ok"
             },
@@ -2183,6 +2188,10 @@
                 "type": "modified",
                 "old_value": "5495024",
                 "new_value": "5496170"
+=======
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
