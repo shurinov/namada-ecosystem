@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": "2026-02-20T07:28:18.182152+00:00Z",
+        "timestamp": "2026-02-20T08:52:31.566466+00:00Z",
         "changes": [
             {
                 "team": "papadritta",
@@ -8,27 +8,8 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.papadritta.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
-            }
-        ]
-    },
-    {
-<<<<<<< Updated upstream
-        "timestamp": "2026-02-20T07:31:13.556018+00:00Z",
-=======
-        "timestamp": "2026-02-20T08:01:25.094137+00:00Z",
->>>>>>> Stashed changes
-        "changes": [
-            {
-                "team": "papadritta",
-                "service": "masp",
-                "field": "sync_state",
-                "full_path": "namada.operator.papadritta.service.masp.sync_state",
-                "type": "modified",
-<<<<<<< Updated upstream
-                "old_value": "sync_nok",
-                "new_value": "sync_ok"
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
             },
             {
                 "team": "papadritta",
@@ -36,12 +17,8 @@
                 "field": "latest_block_height",
                 "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
                 "type": "modified",
-                "old_value": "5495024",
-                "new_value": "5496170"
-=======
-                "old_value": "sync_ok",
-                "new_value": "sync_nok"
->>>>>>> Stashed changes
+                "old_value": "5496170",
+                "new_value": "5496851"
             }
         ]
     }
