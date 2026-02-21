@@ -2735,11 +2735,27 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-21T15:45:08.539323+00:00Z",
+=======
+        "timestamp": "2026-02-21T15:33:17.544648+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "TuDudes",
                 "service": "masp",
+<<<<<<< Updated upstream
+=======
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5511691",
+                "new_value": "5512770"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.TuDudes.service.masp.sync_state",
                 "type": "modified",
