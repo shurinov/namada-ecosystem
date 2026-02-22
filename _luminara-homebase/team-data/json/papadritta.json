@@ -65,11 +65,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-22T10:34:43.471764+00:00Z",
+=======
+        "timestamp": "2026-02-22T10:48:30.216495+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "papadritta",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
                 "type": "modified",
@@ -79,6 +84,8 @@
             {
                 "team": "papadritta",
                 "service": "masp",
+=======
+>>>>>>> Stashed changes
                 "field": "sync_state",
                 "full_path": "namada.operator.papadritta.service.masp.sync_state",
                 "type": "modified",
