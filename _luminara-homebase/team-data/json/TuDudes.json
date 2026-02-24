@@ -128,7 +128,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-24T14:59:03.114546+00:00Z",
+=======
+        "timestamp": "2026-02-24T15:14:37.830494+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "TuDudes",
@@ -138,6 +142,7 @@
                 "type": "modified",
                 "old_value": "sync_ok",
                 "new_value": "sync_lag"
+<<<<<<< Updated upstream
             },
             {
                 "team": "TuDudes",
@@ -147,6 +152,8 @@
                 "type": "modified",
                 "old_value": "5548620",
                 "new_value": "5549251"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
