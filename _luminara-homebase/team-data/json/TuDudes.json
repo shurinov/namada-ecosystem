@@ -388,6 +388,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-02-24T06:08:13.787182+00:00Z",
         "changes": [
             {
@@ -398,6 +399,18 @@
                 "type": "modified",
                 "old_value": "5544156",
                 "new_value": "5544887"
+=======
+        "timestamp": "2026-02-24T06:32:50.246264+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+>>>>>>> Stashed changes
             },
             {
                 "team": "TuDudes",
@@ -407,6 +420,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "TuDudes",
@@ -425,6 +439,8 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
