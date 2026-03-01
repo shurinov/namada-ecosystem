@@ -2813,5 +2813,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-01T20:36:13.264300+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Heliax.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "5613509",
+                "new_value": "5610218"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
