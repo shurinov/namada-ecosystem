@@ -459,5 +459,28 @@
                 "new_value": "5662327"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-06T01:17:39.088740+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
