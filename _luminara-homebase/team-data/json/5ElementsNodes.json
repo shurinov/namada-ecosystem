@@ -4109,7 +4109,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-03-19T16:34:50.746583+00:00Z",
+=======
+        "timestamp": "2026-03-19T17:29:22.589196+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "5ElementsNodes",
@@ -4119,6 +4123,7 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+<<<<<<< Updated upstream
             },
             {
                 "team": "5ElementsNodes",
@@ -4128,6 +4133,8 @@
                 "type": "modified",
                 "old_value": "5834591",
                 "new_value": "5835139"
+=======
+>>>>>>> Stashed changes
             }
         ]
     }
