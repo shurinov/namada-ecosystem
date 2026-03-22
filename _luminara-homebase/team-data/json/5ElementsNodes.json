@@ -623,5 +623,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-22T02:55:45.584318+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "5863814",
+                "new_value": "5865124"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
