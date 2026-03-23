@@ -3171,5 +3171,46 @@
                 "new_value": "0.37.16"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-23T12:42:43.138169+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.itrocket.service.rpc.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "itrocket",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.itrocket.service.rpc.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "0.37.16"
+            },
+            {
+                "team": "itrocket",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.itrocket.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "201.0.7"
+            },
+            {
+                "team": "itrocket",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
