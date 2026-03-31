@@ -442,5 +442,19 @@
                 "new_value": "5987382"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-31T21:29:58.128092+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
