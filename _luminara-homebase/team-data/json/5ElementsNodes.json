@@ -1756,5 +1756,19 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-07T21:34:47.529355+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
