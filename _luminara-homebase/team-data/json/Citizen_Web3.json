@@ -7844,11 +7844,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-04-29T17:58:37.885623+00:00Z",
+=======
+        "timestamp": "2026-04-29T18:52:57.311238+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Citizen Web3",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Citizen Web3.service.masp.latest_block_height",
                 "type": "modified",
@@ -7863,6 +7868,13 @@
                 "type": "modified",
                 "old_value": "sync_lag",
                 "new_value": "sync_ok"
+=======
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
