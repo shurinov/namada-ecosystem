@@ -1158,5 +1158,19 @@
                 "new_value": "6420129"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-05T13:53:19.019763+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
