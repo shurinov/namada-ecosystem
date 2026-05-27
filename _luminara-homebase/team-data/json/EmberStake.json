@@ -1044,5 +1044,19 @@
                 "new_value": "6699719"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-27T21:58:18.256839+00:00Z",
+        "changes": [
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
