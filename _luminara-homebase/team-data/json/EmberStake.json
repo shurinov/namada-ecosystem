@@ -887,5 +887,28 @@
                 "new_value": "6690831"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-27T06:54:55.109412+00:00Z",
+        "changes": [
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
