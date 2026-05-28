@@ -1216,5 +1216,28 @@
                 }
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-28T12:36:33.921111+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Grand Valley.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "6662150",
+                "new_value": "6707358"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
